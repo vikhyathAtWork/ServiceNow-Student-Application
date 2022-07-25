@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Student Result Table" max_length="40" name="x_820118_stds_student_result_table" sizeclass="17" text_index="true" type="collection">
+        <element label="Chemistry" max_length="40" name="chemistry" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Class" max_length="40" name="class" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Father Name" max_length="40" name="father_name" type="string"/>
+        <element label="Mathematics" max_length="40" name="mathematics" type="integer"/>
+        <element label="Meeting" max_length="40" name="meeting" type="glide_date_time"/>
+        <element display="true" label="Name" max_length="32" name="name" reference="x_820118_stds_student_details_list" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Percentage" max_length="15" name="percentage" type="decimal"/>
+        <element label="Physics" max_length="40" name="physics" type="integer"/>
+        <element attributes="encode_utf8=false" label="Principal" max_length="32" name="principal" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="40" name="remarks" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Result" max_length="40" name="result" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pass" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Fail" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Hold" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="With Held" sequence="3" value="7"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Student Name" max_length="32" name="student" reference="x_820118_stds_student_details_list" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Email" max_length="40" name="student_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Student RollNo" max_length="40" name="student_rollno" type="string"/>
+        <element label="New Integer" max_length="40" name="u_integer_3" type="integer"/>
+        <element label="New Integer" max_length="40" name="u_integer_4" type="integer"/>
+        <element label="New Integer" max_length="40" name="u_integer_5" type="integer"/>
+        <element label="Computer Science" max_length="40" name="u_integer_8" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="With Held" max_length="40" name="with_held" type="string"/>
+        <index name="index">
+            <element name="principal"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+        <index name="index3">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

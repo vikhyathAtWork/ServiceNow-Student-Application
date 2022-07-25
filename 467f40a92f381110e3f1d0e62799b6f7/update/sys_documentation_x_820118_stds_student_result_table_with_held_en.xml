@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="with_held" label="With Held" language="en" table="x_820118_stds_student_result_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>with_held</element>
+            <help/>
+            <hint/>
+            <label>With Held</label>
+            <language>en</language>
+            <name>x_820118_stds_student_result_table</name>
+            <plural>With Helds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-19 17:43:59</sys_created_on>
+            <sys_id>9deba8652fb81110e3f1d0e62799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>With Held</sys_name>
+            <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+            <sys_update_name>sys_documentation_x_820118_stds_student_result_table_with_held_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-19 17:43:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

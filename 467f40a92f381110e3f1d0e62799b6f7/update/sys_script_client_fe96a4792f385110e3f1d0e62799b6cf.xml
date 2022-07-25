@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Populationg the fielkds with the help of student name</description>
+        <field>student</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate all fields</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var rn = g_form.getReference('student',callBack);
+   
+}
+function callBack(usr){
+
+	g_form.setValue('student_rollno',usr.student_rollno);
+	g_form.setValue('physics',usr.physics);
+	g_form.setValue('chemistry',usr.chemistry);
+	g_form.setValue('mathematics',usr.mathematics);
+	g_form.setValue('u_integer_8',usr.computer_science);
+	g_form.setValue('student_email',usr.student_email);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 12:05:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe96a4792f385110e3f1d0e62799b6cf</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Populate all fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_script_client_fe96a4792f385110e3f1d0e62799b6cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 14:36:38</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

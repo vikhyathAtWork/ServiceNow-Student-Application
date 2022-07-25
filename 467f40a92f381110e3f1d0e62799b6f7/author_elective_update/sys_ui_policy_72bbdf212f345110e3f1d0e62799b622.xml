@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>false</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	
+	g_form.setValue('percentage','enterd nothiung value');
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	
+	var a = g_form.getValue('physics');
+var b = g_form.getValue('chemistry');
+	var c = g_form.getValue('mathematics');
+	var d = g_form.getValue('computer_science');
+	var total = (parseInt(a) + parseInt(b) + parseInt(c) + parseInt(d))/400;
+	var percent = total * 100;
+	g_form.setValue('percentage',percent,'%');
+}]]></script_true>
+        <set_values/>
+        <short_description>Percentage calculation</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 06:35:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72bbdf212f345110e3f1d0e62799b622</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Percentage calculation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ui_policy_72bbdf212f345110e3f1d0e62799b622</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 07:01:59</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_ui_policy_72bbdf212f345110e3f1d0e62799b622</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+	
+	g_form.setValue('percentage','enterd nothiung value');
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	
+	var a = g_form.getValue('physics');
+var b = g_form.getValue('chemistry');
+	var c = g_form.getValue('mathematics');
+	var d = g_form.getValue('computer_science');
+	var total = (parseInt(a) + parseInt(b) + parseInt(c) + parseInt(d))/400;
+	var percent = total * 100;
+	g_form.setValue('percentage',percent,'%');
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Percentage calculation&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-20 06:35:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;72bbdf212f345110e3f1d0e62799b622&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Percentage calculation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Student App" source="x_820118_stds"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student App"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_72bbdf212f345110e3f1d0e62799b622&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-20 07:01:59&lt;/sys_updated_on&gt;&lt;table&gt;x_820118_stds_student_result_table&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1732773134</payload_hash>
+        <record_name>Percentage calculation</record_name>
+        <reverted_from/>
+        <source>8e7f40a92f381110e3f1d0e62799b6f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 07:01:59</sys_created_on>
+        <sys_id>b2822ba52f345110e3f1d0e62799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1821a69d5310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 07:01:59</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>fa822ba5643451108869271ecfbeabb4</update_guid>
+        <update_guid_history>fa822ba5643451108869271ecfbeabb4:1732773134,d7b1e3a5b9345110e60c9d51d4f06510:1049737401,d1b0ab652a3451109900ff7a5c11706a:1732773134,9b7fd725643451106ba219f662c74eb9:1049737401,906f93e14634511036d8cc5a64e0b097:1146295606,a51f9325a4345110923e2554093735c9:1976528617,16ae5be107345110c91e05e0dbef5860:-296384150,44ec1f61293451101586d6d98c3cadd9:-455122581,f9ac9f212c34511087b948e5347cff72:2008590599,338c9f21663451106fca344b1087fb60:-1449415926</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 14:34:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>05c4b91db26a4329b118622fef88e351</sys_id>
+        <sys_metadata>72bbdf212f345110e3f1d0e62799b622</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Percentage calculation</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent display_value="Student Result Table">61dfc8e92f381110e3f1d0e62799b6fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_72bbdf212f345110e3f1d0e62799b622</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_72bbdf212f345110e3f1d0e62799b622">b2822ba52f345110e3f1d0e62799b6b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 14:34:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

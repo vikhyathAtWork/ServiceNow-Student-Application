@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions table="x_820118_stds_student_result_table">physics=0^chemistry=0^u_integer_8=0^mathematics=0^EQ<item endquery="false" field="physics" goto="false" newquery="false" operator="=" or="false" value="0"/>
+            <item endquery="false" field="chemistry" goto="false" newquery="false" operator="=" or="false" value="0"/>
+            <item endquery="false" field="u_integer_8" goto="false" newquery="false" operator="=" or="false" value="0"/>
+            <item endquery="false" field="mathematics" goto="false" newquery="false" operator="=" or="false" value="0"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>false</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+	g_form.addInfoMessage('you have promoted');
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+	g_form.setValue('result', with_held);
+	g_form.addInfoMessage('your result has been withhelded');
+}]]></script_true>
+        <set_values/>
+        <short_description>With held is shown</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 07:49:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f3c27612f745110e3f1d0e62799b635</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>With held is shown</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ui_policy_1f3c27612f745110e3f1d0e62799b635</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 14:32:27</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

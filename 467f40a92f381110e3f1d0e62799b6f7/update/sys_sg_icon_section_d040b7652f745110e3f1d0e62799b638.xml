@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>c04077652f745110e3f1d0e62799b65e,d8796d392f3c5110e3f1d0e62799b6f1,e57fa1fd2f3c5110e3f1d0e62799b6a1,50ffa9bd2f3c5110e3f1d0e62799b6b1,8471f00e2ff49110e3f1d0e62799b60b,574fdf9a2ff41110e3f1d0e62799b614</applets>
+        <card_size/>
+        <column_count/>
+        <custom_height/>
+        <custom_width/>
+        <data_item/>
+        <display_feed_count>true</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_custom_size>false</is_custom_size>
+        <is_hidden_preference_name/>
+        <orientation>vertical</orientation>
+        <required_roles>x_820118_stds.principal,x_820118_stds.student,x_820118_stds.teacher</required_roles>
+        <row_count/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 08:01:53</sys_created_on>
+        <sys_id>d040b7652f745110e3f1d0e62799b638</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Student Result Table</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_sg_icon_section_d040b7652f745110e3f1d0e62799b638</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 14:43:16</sys_updated_on>
+        <table/>
+        <title>Student Result Table</title>
+        <visible_condition/>
+        <wide_column_count/>
+    </sys_sg_icon_section>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>true</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Student application</name>
+        <required_roles>x_820118_stds.principal,x_820118_stds.student,x_820118_stds.teacher</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 08:01:50</sys_created_on>
+        <sys_id>2f3037652f745110e3f1d0e62799b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student application</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_2f3037652f745110e3f1d0e62799b6a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 08:01:50</sys_updated_on>
+        <title>Student application</title>
+    </sys_sg_applet_launcher>
+</record_update>

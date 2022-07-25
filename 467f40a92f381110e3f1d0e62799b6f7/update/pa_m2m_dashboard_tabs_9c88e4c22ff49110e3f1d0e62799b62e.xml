@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Student DashBoard">756864c22ff49110e3f1d0e62799b6be</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 06:46:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c88e4c22ff49110e3f1d0e62799b62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>756864c22ff49110e3f1d0e62799b6be</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_9c88e4c22ff49110e3f1d0e62799b62e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 06:46:08</sys_updated_on>
+        <tab display_value="Student DashBoard - New Tab">1088e4c22ff49110e3f1d0e62799b62c</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

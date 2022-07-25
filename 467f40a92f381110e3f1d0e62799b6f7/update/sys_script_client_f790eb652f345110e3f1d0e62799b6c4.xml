@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Calculation percentage</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   var a = g_form.getValue('physics');
+var b = g_form.getValue('chemistry');
+	var c = g_form.getValue('mathematics');
+	var d = g_form.getValue('u_integer_8');
+	var total = (parseInt(a) + parseInt(b) + parseInt(c) + parseInt(d));
+	var sum = total/400;
+	var percent = sum * 100;
+	g_form.setValue('percentage',percent,'%');
+	
+	if(percent < 30){
+		g_form.setValue('result','fail');
+	}
+	else{
+		g_form.setValue('result','pass');
+	}
+	
+	g_form.addInfoMessage(total);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 06:54:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f790eb652f345110e3f1d0e62799b6c4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Calculation percentage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_script_client_f790eb652f345110e3f1d0e62799b6c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 14:45:34</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

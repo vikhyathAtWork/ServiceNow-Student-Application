@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-07-25 05:54:55">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 06:46:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d088e4c22ff49110e3f1d0e62799b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Student DashBoard - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_portal_page_d088e4c22ff49110e3f1d0e62799b628</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 06:46:08</sys_updated_on>
+        <title>PA Student DashBoard - New Tab</title>
+        <user/>
+        <view>pa_student_dashboard_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Student DashBoard - New Tab">d088e4c22ff49110e3f1d0e62799b628</page>
+                <summary>Chemistry Report</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-07-21 06:57:43</sys_created_on>
+                <sys_id>0a2b60862ff49110e3f1d0e62799b647</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-07-21 06:57:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:43">0a2b60862ff49110e3f1d0e62799b647</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:44</sys_created_on>
+                        <sys_id>0a2b60862ff49110e3f1d0e62799b648</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:44</sys_updated_on>
+                        <value>semi_donut</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:43">0a2b60862ff49110e3f1d0e62799b647</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:44</sys_created_on>
+                        <sys_id>462b60862ff49110e3f1d0e62799b648</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:44</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:43">0a2b60862ff49110e3f1d0e62799b647</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:44</sys_created_on>
+                        <sys_id>822b60862ff49110e3f1d0e62799b648</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:44</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:43">0a2b60862ff49110e3f1d0e62799b647</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:43</sys_created_on>
+                        <sys_id>8a2b60862ff49110e3f1d0e62799b647</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:43</sys_updated_on>
+                        <value>25b9e4062ff49110e3f1d0e62799b687</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:43">0a2b60862ff49110e3f1d0e62799b647</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:44</sys_created_on>
+                        <sys_id>ca2b60862ff49110e3f1d0e62799b648</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:44</sys_updated_on>
+                        <value>Chemistry Report</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:43">0a2b60862ff49110e3f1d0e62799b647</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:44</sys_created_on>
+                        <sys_id>ce2b60862ff49110e3f1d0e62799b647</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Student DashBoard - New Tab">d088e4c22ff49110e3f1d0e62799b628</page>
+                <summary>Student List</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-07-21 07:58:36</sys_created_on>
+                <sys_id>351970062f389110e3f1d0e62799b6d8</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-07-21 07:58:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-07-21 00:58:36">351970062f389110e3f1d0e62799b6d8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 07:58:36</sys_created_on>
+                        <sys_id>3d1970062f389110e3f1d0e62799b6d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 07:58:36</sys_updated_on>
+                        <value>3cf87cc22f389110e3f1d0e62799b6c4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-07-21 00:58:36">351970062f389110e3f1d0e62799b6d8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 07:58:36</sys_created_on>
+                        <sys_id>3d1970062f389110e3f1d0e62799b6d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 07:58:36</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-07-21 00:58:36">351970062f389110e3f1d0e62799b6d8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 07:58:36</sys_created_on>
+                        <sys_id>751970062f389110e3f1d0e62799b6da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 07:58:36</sys_updated_on>
+                        <value>Student List</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-07-21 00:58:36">351970062f389110e3f1d0e62799b6d8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 07:58:36</sys_created_on>
+                        <sys_id>791970062f389110e3f1d0e62799b6d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 07:58:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-07-21 00:58:36">351970062f389110e3f1d0e62799b6d8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 07:58:36</sys_created_on>
+                        <sys_id>b11970062f389110e3f1d0e62799b6da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 07:58:36</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-07-21 00:58:36">351970062f389110e3f1d0e62799b6d8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 07:58:36</sys_created_on>
+                        <sys_id>fd1970062f389110e3f1d0e62799b6d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 07:58:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Student DashBoard - New Tab">d088e4c22ff49110e3f1d0e62799b628</page>
+                <summary>Student Details</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-07-21 06:46:29</sys_created_on>
+                <sys_id>5d9820c22ff49110e3f1d0e62799b6fe</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-07-21 06:46:29</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:29">5d9820c22ff49110e3f1d0e62799b6fe</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:29</sys_created_on>
+                        <sys_id>119860c22ff49110e3f1d0e62799b600</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:29</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:29">5d9820c22ff49110e3f1d0e62799b6fe</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:29</sys_created_on>
+                        <sys_id>1d9860c22ff49110e3f1d0e62799b600</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:29</sys_updated_on>
+                        <value>Student Details</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:29">5d9820c22ff49110e3f1d0e62799b6fe</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:29</sys_created_on>
+                        <sys_id>559820c22ff49110e3f1d0e62799b6ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:29</sys_updated_on>
+                        <value>990ee97d2f3c5110e3f1d0e62799b6fa</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:29">5d9820c22ff49110e3f1d0e62799b6fe</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:29</sys_created_on>
+                        <sys_id>599860c22ff49110e3f1d0e62799b600</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:29</sys_updated_on>
+                        <value>donut</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:29">5d9820c22ff49110e3f1d0e62799b6fe</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:29</sys_created_on>
+                        <sys_id>959860c22ff49110e3f1d0e62799b600</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:29</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:29">5d9820c22ff49110e3f1d0e62799b6fe</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:29</sys_created_on>
+                        <sys_id>d19860c22ff49110e3f1d0e62799b600</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:29</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Student DashBoard - New Tab">d088e4c22ff49110e3f1d0e62799b628</page>
+                <summary>Students Result Chart</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-07-21 06:46:46</sys_created_on>
+                <sys_id>79a828c22ff49110e3f1d0e62799b621</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-07-21 06:46:46</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:46">79a828c22ff49110e3f1d0e62799b621</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:46</sys_created_on>
+                        <sys_id>31a828c22ff49110e3f1d0e62799b622</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:46</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:46">79a828c22ff49110e3f1d0e62799b621</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:46</sys_created_on>
+                        <sys_id>3da828c22ff49110e3f1d0e62799b622</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:46</sys_updated_on>
+                        <value>Students Result Chart</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:46">79a828c22ff49110e3f1d0e62799b621</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:46</sys_created_on>
+                        <sys_id>79a828c22ff49110e3f1d0e62799b622</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:46</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:46">79a828c22ff49110e3f1d0e62799b621</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:46</sys_created_on>
+                        <sys_id>b5a828c22ff49110e3f1d0e62799b622</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:46">79a828c22ff49110e3f1d0e62799b621</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:46</sys_created_on>
+                        <sys_id>f1a828c22ff49110e3f1d0e62799b622</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:46</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-07-20 23:46:46">79a828c22ff49110e3f1d0e62799b621</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:46:46</sys_created_on>
+                        <sys_id>f9a828c22ff49110e3f1d0e62799b621</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:46:46</sys_updated_on>
+                        <value>757fe7e12f745110e3f1d0e62799b630</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Student DashBoard - New Tab">d088e4c22ff49110e3f1d0e62799b628</page>
+                <summary>Student Result List</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-07-22 07:15:13</sys_created_on>
+                <sys_id>8cc8b95a2f701110e3f1d0e62799b691</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-07-22 07:15:13</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-07-22 00:15:13">8cc8b95a2f701110e3f1d0e62799b691</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 07:15:13</sys_created_on>
+                        <sys_id>00c8b95a2f701110e3f1d0e62799b692</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 07:15:13</sys_updated_on>
+                        <value>0188795a2f701110e3f1d0e62799b6dd</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-07-22 00:15:13">8cc8b95a2f701110e3f1d0e62799b691</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 07:15:13</sys_created_on>
+                        <sys_id>08c8b95a2f701110e3f1d0e62799b692</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 07:15:13</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-07-22 00:15:13">8cc8b95a2f701110e3f1d0e62799b691</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 07:15:13</sys_created_on>
+                        <sys_id>40c8b95a2f701110e3f1d0e62799b693</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 07:15:13</sys_updated_on>
+                        <value>Student Result List</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-07-22 00:15:13">8cc8b95a2f701110e3f1d0e62799b691</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 07:15:13</sys_created_on>
+                        <sys_id>44c8b95a2f701110e3f1d0e62799b692</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 07:15:13</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-07-22 00:15:13">8cc8b95a2f701110e3f1d0e62799b691</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 07:15:13</sys_created_on>
+                        <sys_id>8cc8b95a2f701110e3f1d0e62799b692</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 07:15:13</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-07-22 00:15:13">8cc8b95a2f701110e3f1d0e62799b691</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 07:15:13</sys_created_on>
+                        <sys_id>c8c8b95a2f701110e3f1d0e62799b692</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 07:15:13</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Student DashBoard - New Tab">d088e4c22ff49110e3f1d0e62799b628</page>
+                <summary>Mathematics Report</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-07-21 06:57:33</sys_created_on>
+                <sys_id>a31be0462ff49110e3f1d0e62799b6a9</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-07-21 06:57:33</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:33">a31be0462ff49110e3f1d0e62799b6a9</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:33</sys_created_on>
+                        <sys_id>271be0462ff49110e3f1d0e62799b6a9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:33</sys_updated_on>
+                        <value>7b7aa4462ff49110e3f1d0e62799b696</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:33">a31be0462ff49110e3f1d0e62799b6a9</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:33</sys_created_on>
+                        <sys_id>2f1be0462ff49110e3f1d0e62799b6a9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:33</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:33">a31be0462ff49110e3f1d0e62799b6a9</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:33</sys_created_on>
+                        <sys_id>671be0462ff49110e3f1d0e62799b6aa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:33</sys_updated_on>
+                        <value>Mathematics Report</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:33">a31be0462ff49110e3f1d0e62799b6a9</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:33</sys_created_on>
+                        <sys_id>6b1be0462ff49110e3f1d0e62799b6a9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:33</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:33">a31be0462ff49110e3f1d0e62799b6a9</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:33</sys_created_on>
+                        <sys_id>a31be0462ff49110e3f1d0e62799b6aa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:33</sys_updated_on>
+                        <value>semi_donut</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:33">a31be0462ff49110e3f1d0e62799b6a9</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:33</sys_created_on>
+                        <sys_id>ef1be0462ff49110e3f1d0e62799b6a9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Student DashBoard - New Tab">d088e4c22ff49110e3f1d0e62799b628</page>
+                <summary>Physics Report</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-07-21 06:57:38</sys_created_on>
+                <sys_id>b02bac462ff49110e3f1d0e62799b6bf</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-07-21 06:57:38</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:38">b02bac462ff49110e3f1d0e62799b6bf</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:38</sys_created_on>
+                        <sys_id>342b60862ff49110e3f1d0e62799b63a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:38</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:38">b02bac462ff49110e3f1d0e62799b6bf</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:38</sys_created_on>
+                        <sys_id>342bac462ff49110e3f1d0e62799b6bf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:38</sys_updated_on>
+                        <value>c41ae0062ff49110e3f1d0e62799b679</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:38">b02bac462ff49110e3f1d0e62799b6bf</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:38</sys_created_on>
+                        <sys_id>702b60862ff49110e3f1d0e62799b63a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:38</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:38">b02bac462ff49110e3f1d0e62799b6bf</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:38</sys_created_on>
+                        <sys_id>b82b60862ff49110e3f1d0e62799b63a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:38</sys_updated_on>
+                        <value>Physics Report</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:38">b02bac462ff49110e3f1d0e62799b6bf</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:38</sys_created_on>
+                        <sys_id>bc2b60862ff49110e3f1d0e62799b639</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:38</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:38">b02bac462ff49110e3f1d0e62799b6bf</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:38</sys_created_on>
+                        <sys_id>f42b60862ff49110e3f1d0e62799b63a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:38</sys_updated_on>
+                        <value>semi_donut</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Student DashBoard - New Tab">d088e4c22ff49110e3f1d0e62799b628</page>
+                <summary>Scheduled Meetings</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-07-22 16:11:52</sys_created_on>
+                <sys_id>d193b7d62f781110e3f1d0e62799b6dd</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-07-22 16:11:52</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-07-22 09:11:52">d193b7d62f781110e3f1d0e62799b6dd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 16:11:52</sys_created_on>
+                        <sys_id>1193b7d62f781110e3f1d0e62799b6df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 16:11:52</sys_updated_on>
+                        <value>Scheduled Meetings</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-07-22 09:11:52">d193b7d62f781110e3f1d0e62799b6dd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 16:11:52</sys_created_on>
+                        <sys_id>1593b7d62f781110e3f1d0e62799b6de</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 16:11:52</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-07-22 09:11:52">d193b7d62f781110e3f1d0e62799b6dd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 16:11:52</sys_created_on>
+                        <sys_id>5d93b7d62f781110e3f1d0e62799b6de</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 16:11:52</sys_updated_on>
+                        <value>calendar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-07-22 09:11:52">d193b7d62f781110e3f1d0e62799b6dd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 16:11:52</sys_created_on>
+                        <sys_id>9993b7d62f781110e3f1d0e62799b6dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 16:11:52</sys_updated_on>
+                        <value>bcbe6bd22f781110e3f1d0e62799b69e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-07-22 09:11:52">d193b7d62f781110e3f1d0e62799b6dd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 16:11:52</sys_created_on>
+                        <sys_id>9993b7d62f781110e3f1d0e62799b6de</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 16:11:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-07-22 09:11:52">d193b7d62f781110e3f1d0e62799b6dd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-22 16:11:52</sys_created_on>
+                        <sys_id>d593b7d62f781110e3f1d0e62799b6de</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-22 16:11:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Student DashBoard - New Tab">d088e4c22ff49110e3f1d0e62799b628</page>
+                <summary>Computer Science Report</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-07-21 06:57:28</sys_created_on>
+                <sys_id>d61b28462ff49110e3f1d0e62799b65c</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-07-21 06:57:28</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:28">d61b28462ff49110e3f1d0e62799b65c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:28</sys_created_on>
+                        <sys_id>161b28462ff49110e3f1d0e62799b65d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:28</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:28">d61b28462ff49110e3f1d0e62799b65c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:28</sys_created_on>
+                        <sys_id>521b28462ff49110e3f1d0e62799b65d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:28</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:28">d61b28462ff49110e3f1d0e62799b65c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:28</sys_created_on>
+                        <sys_id>5a1b28462ff49110e3f1d0e62799b65c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:28</sys_updated_on>
+                        <value>75bae0462ff49110e3f1d0e62799b6d7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:28">d61b28462ff49110e3f1d0e62799b65c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:28</sys_created_on>
+                        <sys_id>9a1b28462ff49110e3f1d0e62799b65d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:28</sys_updated_on>
+                        <value>Computer Science Report</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:28">d61b28462ff49110e3f1d0e62799b65c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:28</sys_created_on>
+                        <sys_id>9e1b28462ff49110e3f1d0e62799b65c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:28</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-07-20 23:57:28">d61b28462ff49110e3f1d0e62799b65c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-07-21 06:57:28</sys_created_on>
+                        <sys_id>d61b28462ff49110e3f1d0e62799b65d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-07-21 06:57:28</sys_updated_on>
+                        <value>semi_donut</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

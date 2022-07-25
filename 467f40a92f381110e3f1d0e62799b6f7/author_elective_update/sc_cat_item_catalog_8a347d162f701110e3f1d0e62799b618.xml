@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Student Catalog">829275d22f701110e3f1d0e62799b697</sc_cat_item>
+        <sc_catalog display_value="Resources">8752afd953133300a8ed21fac2dc34ac</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 06:55:25</sys_created_on>
+        <sys_id>8a347d162f701110e3f1d0e62799b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resources.Student Catalog</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_8a347d162f701110e3f1d0e62799b618</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 06:55:25</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sc_cat_item_catalog_8a347d162f701110e3f1d0e62799b618</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Student Catalog">829275d22f701110e3f1d0e62799b697</sc_cat_item><sc_catalog display_value="Resources">8752afd953133300a8ed21fac2dc34ac</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-22 06:55:25</sys_created_on><sys_id>8a347d162f701110e3f1d0e62799b618</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Resources.Student Catalog</sys_name><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sc_cat_item_catalog_8a347d162f701110e3f1d0e62799b618</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-22 06:55:25</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-219406361</payload_hash>
+        <record_name>Resources.Student Catalog</record_name>
+        <reverted_from/>
+        <source>8e7f40a92f381110e3f1d0e62799b6f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 06:55:25</sys_created_on>
+        <sys_id>42347d162f701110e3f1d0e62799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18224b087c10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 06:55:25</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>c6347d16ff7011109c13738cf61be21d</update_guid>
+        <update_guid_history>c6347d16ff7011109c13738cf61be21d:-219406361</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Resources.Student Catalog">f954fd162f701110e3f1d0e62799b667</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 06:55:57</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>b105fff279684702ab09500ea9e82b64</sys_id>
+        <sys_metadata>8a347d162f701110e3f1d0e62799b618</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resources.Student Catalog</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent display_value="Student Catalog">829275d22f701110e3f1d0e62799b697</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_8a347d162f701110e3f1d0e62799b618</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_8a347d162f701110e3f1d0e62799b618">42347d162f701110e3f1d0e62799b61e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 06:55:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

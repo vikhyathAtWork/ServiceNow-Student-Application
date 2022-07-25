@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="DELETE">
+        <applet_launcher display_value="Student application">2f3037652f745110e3f1d0e62799b6a6</applet_launcher>
+        <order/>
+        <section display_value="Browse">0b7e1cf79f23230088aebde8132e7076</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 14:38:18</sys_created_on>
+        <sys_id>622e139a2ff41110e3f1d0e62799b650</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_622e139a2ff41110e3f1d0e62799b650</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 14:38:18</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_sg_applet_launcher_m2m_section_622e139a2ff41110e3f1d0e62799b650</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section"><sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE"><applet_launcher display_value="Student application">2f3037652f745110e3f1d0e62799b6a6</applet_launcher><order/><section display_value="Browse">0b7e1cf79f23230088aebde8132e7076</section><sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-22 14:38:18</sys_created_on><sys_id>622e139a2ff41110e3f1d0e62799b650</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sys_sg_applet_launcher_m2m_section_622e139a2ff41110e3f1d0e62799b650</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-22 14:38:18</sys_updated_on></sys_sg_applet_launcher_m2m_section></record_update>]]></payload>
+        <payload_hash>-582474525</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8e7f40a92f381110e3f1d0e62799b6f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 14:38:18</sys_created_on>
+        <sys_id>a62e139a2ff41110e3f1d0e62799b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182265851070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 14:38:18</sys_updated_on>
+        <type>Launcher section mapping</type>
+        <update_guid>ee2e139a3bf41110636566ad16327452</update_guid>
+        <update_guid_history>ee2e139a3bf41110636566ad16327452:-582474525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 14:38:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher_m2m_section">sys_sg_applet_launcher_m2m_section</sys_db_object>
+        <sys_id>1b77410c5f444a489221d132e69a5840</sys_id>
+        <sys_metadata>622e139a2ff41110e3f1d0e62799b650</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_622e139a2ff41110e3f1d0e62799b650</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_m2m_section_622e139a2ff41110e3f1d0e62799b650">a62e139a2ff41110e3f1d0e62799b653</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 14:38:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

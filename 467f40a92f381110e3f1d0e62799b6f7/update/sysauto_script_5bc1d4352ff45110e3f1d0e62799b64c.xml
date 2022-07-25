@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Generate Random Records</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="admin@example.com">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-07-20 10:28:27</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[//Number of NeedIt records to create
+var recordsToMake = 15;
+
+// Declare and initialize variables used in the script
+var genNIRec;
+var i;
+var tableName = "x_820118_stds_student_details_list";
+var physicsArray = ["45", "65", "78"];
+var chemistryArray = ["87", "78", "98"];
+var mathematicsArray = ["39", "75", "78"];
+var computerScienceArray = ["49", "99", "100"];
+var selectPhysics = "";
+
+var studentNameArray = [{
+    "name": "Amith",
+    "email": "amith@example.com"
+}, {
+    "name": "Abhishek",
+    "email": "abhishek@example.com"
+}, {
+    "name": "Pandu",
+    "email": "pandu@example.com"
+}];
+var pickUser = 10;
+
+for (i = 0; i < recordsToMake; i++) {
+    genNIRec = new GlideRecord(tableName);
+    genNIRec.newRecord();
+
+
+    //Select a random value from the requestType array and set the Request Type field value (choice)
+    selectPhysics = physicsArray[(Math.floor(Math.random() * 3))];
+    genNIRec.setValue("physics", selectPhysics);
+	
+	selectChemistry = chemistryArray[(Math.floor(Math.random() * 3))];
+    genNIRec.setValue("chemistry", selectChemistry);
+	
+	selectMathematics = mathematicsArray[(Math.floor(Math.random() * 3))];
+    genNIRec.setValue("mathematics", selectMathematics);
+	
+	selectComputerScience = physicsArray[(Math.floor(Math.random() * 3))];
+    genNIRec.setValue("computer_science", selectComputerScience);
+
+    genNIRec.setValue("short_description", "Automatically created NeedIt request: " + selectPhysics + ", " + selectChemistry + " ," + selectMathematics + "," + selectComputerScience);
+	
+    pickUser = (Math.floor(Math.random() * 3));
+    genNIRec.student_name.setDisplayValue(studentNameArray[pickUser].name);
+    genNIRec.setValue("student_email", studentNameArray[pickUser].email.toString());
+
+
+    
+    genNIRec.insert();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 10:44:45</sys_created_on>
+        <sys_id>5bc1d4352ff45110e3f1d0e62799b64c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Generate Random Records</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sysauto_script_5bc1d4352ff45110e3f1d0e62799b64c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 10:49:46</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

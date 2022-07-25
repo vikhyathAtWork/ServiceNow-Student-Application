@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_820118_stds_student_result_table">percentage&lt;30^EQ<item endquery="false" field="percentage" goto="false" newquery="false" operator="&lt;" or="false" value="30"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	
+	g_form.setValue('result',pass);
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+// 	var res = g_form.getValue('result');
+	g_form.setValue('result',fail);
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Result shown according to marks</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 05:21:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d45a0b212ff05110e3f1d0e62799b675</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Result shown according to marks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ui_policy_d45a0b212ff05110e3f1d0e62799b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 14:42:09</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_ui_policy_d45a0b212ff05110e3f1d0e62799b675</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_820118_stds_student_result_table"&gt;percentage&amp;lt;30^EQ&lt;item endquery="false" field="percentage" goto="false" newquery="false" operator="&amp;lt;" or="false" value="30"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+	
+	g_form.setValue('result',pass);
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+// 	var res = g_form.getValue('result');
+	g_form.setValue('result',fail);
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Result shown according to marks&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-20 05:21:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d45a0b212ff05110e3f1d0e62799b675&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Result shown according to marks&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Student App" source="x_820118_stds"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student App"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_d45a0b212ff05110e3f1d0e62799b675&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-20 14:42:09&lt;/sys_updated_on&gt;&lt;table&gt;x_820118_stds_student_result_table&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1963887673</payload_hash>
+        <record_name>Result shown according to marks</record_name>
+        <reverted_from/>
+        <source>8e7f40a92f381110e3f1d0e62799b6f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 14:42:09</sys_created_on>
+        <sys_id>2bdb49bd2fb85110e3f1d0e62799b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1821c0f200c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 14:42:09</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>63db49bd87b8511065001dfe392ed30a</update_guid>
+        <update_guid_history>63db49bd87b8511065001dfe392ed30a:-1963887673,037bc93d3fb85110e07543a1ec1eacc0:1789234818,887b8d7d60b851106da42af78dd278fd:-1963887673,516b4d7d5eb85110cc80d432187953ab:-1487189230,051a8d3d61b851101a39ce035a710aa7:1939543826,cef9493dd8b851107b9c80edd95666f5:1462845383,81394df925b85110f9f115dd92097610:-417718271,32334d759eb851108bc05033919dd0ae:-925860692,690f0f2545f05110fbfdbe80b9ed765d:-104380536,3f3dcfa144f05110a8519f78a444c39e:1729381342,2a9c0ba1aef05110ba5049d4b9b8fbd9:-1869045968,ef9b832141f05110fd979b77b006d001:1174321528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 14:42:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>19f522344dea4b3eb2eaa80b59b99071</sys_id>
+        <sys_metadata>d45a0b212ff05110e3f1d0e62799b675</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Result shown according to marks</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent display_value="Student Result Table">61dfc8e92f381110e3f1d0e62799b6fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_d45a0b212ff05110e3f1d0e62799b675</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_d45a0b212ff05110e3f1d0e62799b675">2bdb49bd2fb85110e3f1d0e62799b60a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 14:42:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
