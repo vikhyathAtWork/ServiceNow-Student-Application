@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Student Result Page - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="student_result_page">c442eaeb2fb45110e3f1d0e62799b687</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 07:29:37</sys_created_on>
+        <sys_id>1e62e62f2fb45110e3f1d0e62799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student Result Page - Container 2</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_container_1e62e62f2fb45110e3f1d0e62799b6fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 07:29:37</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sp_container_1e62e62f2fb45110e3f1d0e62799b6fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Student Result Page - Container 2</name><order>2</order><sp_page display_value="student_result_page">c442eaeb2fb45110e3f1d0e62799b687</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-26 07:29:37</sys_created_on><sys_id>1e62e62f2fb45110e3f1d0e62799b6fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Student Result Page - Container 2</sys_name><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sp_container_1e62e62f2fb45110e3f1d0e62799b6fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-26 07:29:37</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1617941167</payload_hash>
+        <record_name>Student Result Page - Container 2</record_name>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 07:29:37</sys_created_on>
+        <sys_id>1662e62f2fb45110e3f1d0e62799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18239694a960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 07:29:37</sys_updated_on>
+        <type>Container</type>
+        <update_guid>5e62e62fd1b45110a7516e5434a729fc</update_guid>
+        <update_guid_history>5e62e62fd1b45110a7516e5434a729fc:1617941167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Student Result Page - Container 2">740466af2fb45110e3f1d0e62799b625</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 07:36:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>7ff324cb9d28498885ad6c92bf0fe104</sys_id>
+        <sys_metadata>1e62e62f2fb45110e3f1d0e62799b6fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student Result Page - Container 2</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sp_container_1e62e62f2fb45110e3f1d0e62799b6fb</sys_update_name>
+        <sys_update_version display_value="sp_container_1e62e62f2fb45110e3f1d0e62799b6fb">1662e62f2fb45110e3f1d0e62799b6fd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 07:36:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

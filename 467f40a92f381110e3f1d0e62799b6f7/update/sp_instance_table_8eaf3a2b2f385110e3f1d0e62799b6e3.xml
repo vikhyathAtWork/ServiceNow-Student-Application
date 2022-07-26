@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>student,student_rollno,student_email,physics,chemistry,mathematics,u_integer_8,percentage,result</field_list>
+        <filter/>
+        <glyph>wpforms</glyph>
+        <id/>
+        <maximum_entries>600</maximum_entries>
+        <order>1</order>
+        <order_by>percentage</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8620cf2b2f385110e3f1d0e62799b60c</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 09:37:25</sys_created_on>
+        <sys_id>8eaf3a2b2f385110e3f1d0e62799b6e3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>RESULT LIST YOU FUCKING IDIOTS</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_instance_table_8eaf3a2b2f385110e3f1d0e62799b6e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 10:11:39</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
+        <title>RESULT LIST YOU FUCKING IDIOTS</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=8eaf3a2b2f385110e3f1d0e62799b6e3"/>
+</record_update>

@@ -28,6 +28,8 @@ var b = g_form.getValue('chemistry');
 		g_form.setValue('result','pass');
 	}
 	
+
+	
 	g_form.addInfoMessage(total);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -36,7 +38,7 @@ var b = g_form.getValue('chemistry');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f790eb652f345110e3f1d0e62799b6c4</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Calculation percentage</sys_name>
         <sys_overrides/>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
@@ -44,7 +46,7 @@ var b = g_form.getValue('chemistry');
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sys_script_client_f790eb652f345110e3f1d0e62799b6c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-20 14:45:34</sys_updated_on>
+        <sys_updated_on>2022-07-26 10:04:01</sys_updated_on>
         <table>x_820118_stds_student_result_table</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

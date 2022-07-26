@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">6e405e6bf27451101c72de71af34908b</dataset>
+        <datasource display_value="My Requests - Requested Item Datasource">2a405e6ba3745110ff598480be4f858b</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-26 06:10:35</sys_created_on>
+        <sys_id>62405e6ba674511039bc0866a73e278a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_62405e6ba674511039bc0866a73e278a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-26 06:10:35</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

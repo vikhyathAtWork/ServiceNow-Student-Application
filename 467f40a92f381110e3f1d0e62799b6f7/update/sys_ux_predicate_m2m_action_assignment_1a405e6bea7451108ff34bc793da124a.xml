@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="reject">12405e6b447451109242ff596b7a915b</declarative_action_assignment>
+        <predicate display_value="My Tasks">12405e6bff7451106f98bc9e3a13d74e</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-26 06:10:33</sys_created_on>
+        <sys_id>1a405e6bea7451108ff34bc793da124a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_1a405e6bea7451108ff34bc793da124a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-26 06:10:33</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

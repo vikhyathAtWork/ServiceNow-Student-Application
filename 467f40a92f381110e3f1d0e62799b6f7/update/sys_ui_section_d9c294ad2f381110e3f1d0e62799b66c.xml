@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Note" section_id="d9c294ad2f381110e3f1d0e62799b66c" sys_domain="global" table="x_820118_stds_student_result_table" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>remarks</element>
+            <element>activity.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-19 15:56:44</sys_created_on>
-            <sys_id>525310ed2f381110e3f1d0e62799b6bf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Note" display_value="Note" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">d9c294ad2f381110e3f1d0e62799b66c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-19 15:56:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity.xml</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-19 15:56:44</sys_created_on>
-            <sys_id>d25310ed2f381110e3f1d0e62799b6bf</sys_id>
+            <sys_created_on>2022-07-26 09:59:22</sys_created_on>
+            <sys_id>3fa447ef2f385110e3f1d0e62799b646</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Note" display_value="Note" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">d9c294ad2f381110e3f1d0e62799b66c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-19 15:56:44</sys_updated_on>
+            <sys_updated_on>2022-07-26 09:59:22</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
