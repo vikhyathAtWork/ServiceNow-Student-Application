@@ -6,22 +6,22 @@
         <bootstrap_alt>false</bootstrap_alt>
         <class_name/>
         <container_class_name/>
-        <name>Student Result Page - Container 3</name>
+        <name>COLLEGE LOGIN PAGE - Container 3</name>
         <order>3</order>
-        <sp_page display_value="student_result_page">c442eaeb2fb45110e3f1d0e62799b687</sp_page>
+        <sp_page display_value="college_login_page">bbdb83a32f785110e3f1d0e62799b6ec</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-26 09:39:28</sys_created_on>
-        <sys_id>dc20872b2f385110e3f1d0e62799b6d6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Student Result Page - Container 3</sys_name>
+        <sys_created_on>2022-07-26 10:30:55</sys_created_on>
+        <sys_id>fdeb83672f785110e3f1d0e62799b640</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>COLLEGE LOGIN PAGE - Container 3</sys_name>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
-        <sys_update_name>sp_container_dc20872b2f385110e3f1d0e62799b6d6</sys_update_name>
+        <sys_update_name>sp_container_fdeb83672f785110e3f1d0e62799b640</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-26 10:50:05</sys_updated_on>
+        <sys_updated_on>2022-07-26 12:40:12</sys_updated_on>
         <title/>
         <width>container</width>
     </sp_container>

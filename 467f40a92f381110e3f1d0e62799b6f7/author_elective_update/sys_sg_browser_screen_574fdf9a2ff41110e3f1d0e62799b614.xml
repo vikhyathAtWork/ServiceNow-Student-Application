@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="MS icon-User-Solid">6e2db5c273b52010a59b4c5353f6a7cd</icon>
+        <name>User Analytics</name>
+        <relative_url>false</relative_url>
+        <roles_override/>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 14:43:16</sys_created_on>
+        <sys_id>574fdf9a2ff41110e3f1d0e62799b614</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>User Analytics</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_574fdf9a2ff41110e3f1d0e62799b614</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 14:53:24</sys_updated_on>
+        <url>https://dev58675.service-now.com/analytics#/overview/cross-app#/all/</url>
+    </sys_sg_browser_screen>
+    <sys_translated_text action="DELETE" query="documentkey=574fdf9a2ff41110e3f1d0e62799b614"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_sg_browser_screen_574fdf9a2ff41110e3f1d0e62799b614</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen"><sys_sg_browser_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description/><dynamic_prefetch_count/><empty_state/><external_browser>false</external_browser><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="MS icon-User-Solid">6e2db5c273b52010a59b4c5353f6a7cd</icon><name>User Analytics</name><relative_url>false</relative_url><roles_override/><sys_class_name>sys_sg_browser_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-22 14:43:16</sys_created_on><sys_id>574fdf9a2ff41110e3f1d0e62799b614</sys_id><sys_mod_count>6</sys_mod_count><sys_name>User Analytics</sys_name><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sys_sg_browser_screen_574fdf9a2ff41110e3f1d0e62799b614</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-22 14:53:24</sys_updated_on><url>https://dev58675.service-now.com/analytics#/overview/cross-app#/all/</url></sys_sg_browser_screen><sys_translated_text action="delete_multiple" query="documentkey=574fdf9a2ff41110e3f1d0e62799b614"/></record_update>]]></payload>
+        <payload_hash>1728910395</payload_hash>
+        <record_name>User Analytics</record_name>
+        <reverted_from/>
+        <source>8e7f40a92f381110e3f1d0e62799b6f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 14:53:24</sys_created_on>
+        <sys_id>f7912b5e2ff41110e3f1d0e62799b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182266624560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 14:53:24</sys_updated_on>
+        <type>Mobile web screen</type>
+        <update_guid>33912b5e89f41110d54ed4dd863e2f1c</update_guid>
+        <update_guid_history>33912b5e89f41110d54ed4dd863e2f1c:1728910395,8261e75e97f41110380208b5ca9103fa:-1503082457,6021ef1e5cf41110f6af6288fb7bda8c:1728910395,0ee0631ee1f41110cfb9d828d4a23799:1167927557,d9df97da00f41110177e8f842e477957:1728910395,d7bfdf9aeef4111019ac0a069e50161d:372760039,934fdf9af2f41110f8f524f2c2fa8916:-1556285586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 15:24:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_browser_screen">sys_sg_browser_screen</sys_db_object>
+        <sys_id>32a90573ad7f4cb19842d579e7ef5201</sys_id>
+        <sys_metadata>574fdf9a2ff41110e3f1d0e62799b614</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Analytics</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_sg_browser_screen_574fdf9a2ff41110e3f1d0e62799b614</sys_update_name>
+        <sys_update_version display_value="sys_sg_browser_screen_574fdf9a2ff41110e3f1d0e62799b614">f7912b5e2ff41110e3f1d0e62799b61c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 15:24:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

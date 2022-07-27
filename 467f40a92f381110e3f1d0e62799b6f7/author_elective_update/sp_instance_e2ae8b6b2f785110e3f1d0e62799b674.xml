@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e38e4b6b2f785110e3f1d0e62799b69d</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 10:42:59</sys_created_on>
+        <sys_id>e2ae8b6b2f785110e3f1d0e62799b674</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_instance_e2ae8b6b2f785110e3f1d0e62799b674</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 10:45:37</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h2 style=\"text-align: left;\" data-mce-style=\"text-align: left;\"><strong><em>LOGIN AS :</em></strong></h2>",
+		"displayValue": "<h2 style=\"text-align: left;\"><strong><em>LOGIN AS :</em></strong></h2>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e2ae8b6b2f785110e3f1d0e62799b674"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sp_instance_e2ae8b6b2f785110e3f1d0e62799b674</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;e38e4b6b2f785110e3f1d0e62799b69d&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-26 10:42:59&lt;/sys_created_on&gt;&lt;sys_id&gt;e2ae8b6b2f785110e3f1d0e62799b674&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Student App" source="x_820118_stds"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student App"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_e2ae8b6b2f785110e3f1d0e62799b674&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-26 10:45:37&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;h2 style=\"text-align: left;\" data-mce-style=\"text-align: left;\"&gt;&lt;strong&gt;&lt;em&gt;LOGIN AS :&lt;/em&gt;&lt;/strong&gt;&lt;/h2&gt;",
+		"displayValue": "&lt;h2 style=\"text-align: left;\"&gt;&lt;strong&gt;&lt;em&gt;LOGIN AS :&lt;/em&gt;&lt;/strong&gt;&lt;/h2&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e2ae8b6b2f785110e3f1d0e62799b674"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1131157714</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 10:45:37</sys_created_on>
+        <sys_id>d94fc7ab2f785110e3f1d0e62799b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823a1cbaa40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 10:45:37</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>514fc7abb1785110594478d75e6406f4</update_guid>
+        <update_guid_history>514fc7abb1785110594478d75e6406f4:1131157714,114fc7abba785110a537da47932ba5f0:-1439209795,0c4fc7abdd785110b0b0972bb8a68d57:1131157714,773f87ab447851103f92f064e4dab1d7:-1439209795,6f3fc7abab785110ebfa672ea6e2624b:1131157714,93ce4f6b367851102fbbd10958aa7e42:-1439209795,aaae8b6beb78511031f819bd037b1b75:-1913093699</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fe4f03ab2f785110e3f1d0e62799b643</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 10:45:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>8bdf52a07b4048d093771a3a44840c10</sys_id>
+        <sys_metadata>e2ae8b6b2f785110e3f1d0e62799b674</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sp_instance_e2ae8b6b2f785110e3f1d0e62799b674</sys_update_name>
+        <sys_update_version display_value="sp_instance_e2ae8b6b2f785110e3f1d0e62799b674">d94fc7ab2f785110e3f1d0e62799b6f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 10:45:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
