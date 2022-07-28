@@ -23,16 +23,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-26 09:37:25</sys_created_on>
         <sys_id>8eaf3a2b2f385110e3f1d0e62799b6e3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>RESULT LIST YOU FUCKING IDIOTS</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>RESULT LIST</sys_name>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sp_instance_table_8eaf3a2b2f385110e3f1d0e62799b6e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-26 10:11:39</sys_updated_on>
+        <sys_updated_on>2022-07-27 09:02:06</sys_updated_on>
         <table>x_820118_stds_student_result_table</table>
-        <title>RESULT LIST YOU FUCKING IDIOTS</title>
+        <title>RESULT LIST</title>
         <url/>
         <widget_parameters/>
     </sp_instance_table>

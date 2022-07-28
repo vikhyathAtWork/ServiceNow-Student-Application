@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>6</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6bef67fb2f789110e3f1d0e62799b64c</sp_column>
+        <sp_page/>
+        <sp_widget display_value="HRI Task Panel">e62d8fb19f2712009205f7f8677fcf81</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 07:51:26</sys_created_on>
+        <sys_id>6ff0777f2f789110e3f1d0e62799b65c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_instance_vlist_6ff0777f2f789110e3f1d0e62799b65c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 07:52:24</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=6ff0777f2f789110e3f1d0e62799b65c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sp_instance_vlist_6ff0777f2f789110e3f1d0e62799b65c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>6</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">6bef67fb2f789110e3f1d0e62799b64c</sp_column><sp_page/><sp_widget display_value="HRI Task Panel">e62d8fb19f2712009205f7f8677fcf81</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-27 07:51:26</sys_created_on><sys_id>6ff0777f2f789110e3f1d0e62799b65c</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sp_instance_vlist_6ff0777f2f789110e3f1d0e62799b65c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-27 07:52:24</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=6ff0777f2f789110e3f1d0e62799b65c"/></record_update>]]></payload>
+        <payload_hash>-689768544</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 07:52:24</sys_created_on>
+        <sys_id>a9313f7f2f789110e3f1d0e62799b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823ea481570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 07:52:24</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>21313f7fd1789110a9da9d62efbe6965</update_guid>
+        <update_guid_history>21313f7fd1789110a9da9d62efbe6965:-689768544,6721fb7fad789110566b33a4f0080862:142297249,abf0f77fa278911093a2f1f663df7a05:-689768544</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">61413f7f2f789110e3f1d0e62799b6d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 07:52:40</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>02aad391fc2d49b48c8a4edc10b47904</sys_id>
+        <sys_metadata>6ff0777f2f789110e3f1d0e62799b65c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_6ff0777f2f789110e3f1d0e62799b65c</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_6ff0777f2f789110e3f1d0e62799b65c">a9313f7f2f789110e3f1d0e62799b665</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 07:52:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
