@@ -6,7 +6,7 @@ $state-success-text:#5cb85c;
 $sp-homepage-bg:#fff;
 $sp-navbar-divider-color:#455464;
 $text-color:#717171;
-$sp-logo-margin-y:4px;
+$sp-logo-margin-y:.4rem;
 $navbar-inverse-link-hover-color:#ffffff;
 $panel-bg:#fff;
 $brand-success:#0a5d0c;
@@ -17,7 +17,7 @@ $sp-tagline-color:#717171;
 $navbar-inverse-link-color:#bdc0c4;
 $brand-info:#0F7D8B;
 $link-color:#045AAE;
-$sp-logo-margin-x:10px;
+$sp-logo-margin-x:2px;
 $btn-default-bg:#fff;
 $text-muted:#646567;
 </css_variables>
@@ -44,14 +44,14 @@ $text-muted:#646567;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-26 05:43:29</sys_created_on>
         <sys_id>bf0902a32f745110e3f1d0e62799b6d8</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Student App</sys_name>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sp_portal_bf0902a32f745110e3f1d0e62799b6d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-26 13:52:15</sys_updated_on>
+        <sys_updated_on>2022-07-29 11:29:41</sys_updated_on>
         <theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme>
         <title>Student App</title>
         <ts_index_group/>

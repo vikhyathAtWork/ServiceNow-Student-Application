@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Student App 32 Config">d5e53d2c2f4d1510e3f1d0e62799b69b</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Activity">2de53d2c364d15104669045a800f0fd2</macroponent>
+        <macroponent_config>{
+  "sysId" : "@context.props.sysId",
+  "table" : "@context.props.table",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Activity Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(task)">25e53d2c0e4d1510e773f1c307cb40dd</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Activity">65e53d2c4e4d15101b878173fc591edb</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-29 06:49:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5e53d2c274d1510e23f5964a5d17fd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activity Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ux_screen_a5e53d2c274d1510e23f5964a5d17fd0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-29 06:49:10</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5e53d2c274d1510e23f5964a5d17fd0"/>
+</record_update>

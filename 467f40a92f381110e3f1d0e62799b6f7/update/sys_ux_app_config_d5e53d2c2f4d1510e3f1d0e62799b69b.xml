@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description>gfdyhlkjk</description>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>landing</landing_path>
+        <name>Student App 32 Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-29 06:49:10</sys_created_on>
+        <sys_id>d5e53d2c2f4d1510e3f1d0e62799b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student App 32 Config</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ux_app_config_d5e53d2c2f4d1510e3f1d0e62799b69b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-29 06:49:10</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=d5e53d2c2f4d1510e3f1d0e62799b69b"/>
+</record_update>

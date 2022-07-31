@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6d05ce982f011510e3f1d0e62799b665</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>zane.sulikowski</sys_created_by>
+        <sys_created_on>2022-07-28 13:21:18</sys_created_on>
+        <sys_id>11168ed82f011510e3f1d0e62799b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_instance_11168ed82f011510e3f1d0e62799b6eb</sys_update_name>
+        <sys_updated_by>zane.sulikowski</sys_updated_by>
+        <sys_updated_on>2022-07-28 13:21:18</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=11168ed82f011510e3f1d0e62799b6eb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sp_instance_11168ed82f011510e3f1d0e62799b6eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">6d05ce982f011510e3f1d0e62799b665</sp_column><sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>zane.sulikowski</sys_created_by><sys_created_on>2022-07-28 13:21:18</sys_created_on><sys_id>11168ed82f011510e3f1d0e62799b6eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sp_instance_11168ed82f011510e3f1d0e62799b6eb</sys_update_name><sys_updated_by>zane.sulikowski</sys_updated_by><sys_updated_on>2022-07-28 13:21:18</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=11168ed82f011510e3f1d0e62799b6eb"/></record_update>]]></payload>
+        <payload_hash>-467382913</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>99f48e982f011510e3f1d0e62799b61b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zane.sulikowski</sys_created_by>
+        <sys_created_on>2022-07-28 13:21:19</sys_created_on>
+        <sys_id>d9168ed82f011510e3f1d0e62799b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18244f7fcdb0000001</sys_recorded_at>
+        <sys_updated_by>zane.sulikowski</sys_updated_by>
+        <sys_updated_on>2022-07-28 13:21:19</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>15168ed8de011510afc82d33a1ae27ec</update_guid>
+        <update_guid_history>15168ed8de011510afc82d33a1ae27ec:-467382913</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">38264e982f011510e3f1d0e62799b69d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zane.sulikowski</sys_created_by>
+        <sys_created_on>2022-07-28 13:21:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2ba51754255a49729f55d47ed6c96c49</sys_id>
+        <sys_metadata>11168ed82f011510e3f1d0e62799b6eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sp_instance_11168ed82f011510e3f1d0e62799b6eb</sys_update_name>
+        <sys_update_version display_value="sp_instance_11168ed82f011510e3f1d0e62799b6eb">d9168ed82f011510e3f1d0e62799b6ec</sys_update_version>
+        <sys_updated_by>zane.sulikowski</sys_updated_by>
+        <sys_updated_on>2022-07-28 13:21:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

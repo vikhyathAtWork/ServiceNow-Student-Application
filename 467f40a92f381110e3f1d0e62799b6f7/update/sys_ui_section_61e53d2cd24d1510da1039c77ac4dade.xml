@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="61e53d2cd24d1510da1039c77ac4dade" sys_domain="global" table="sysapproval_approver" version="3" view="5_custom_portal_approval_x_820118_stds">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-07-29 06:49:06</sys_created_on>
+            <sys_id>a5e53d2c8f4d1510fda33863a621b9de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="25e53d2c404d1510c32742def589a6de">61e53d2cd24d1510da1039c77ac4dade</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-07-29 06:49:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-07-29 06:49:06</sys_created_on>
+            <sys_id>29e53d2c374d151025c424104b8f0bde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="25e53d2c404d1510c32742def589a6de">61e53d2cd24d1510da1039c77ac4dade</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-07-29 06:49:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-07-29 06:49:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61e53d2cd24d1510da1039c77ac4dade</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+            <sys_update_name>sys_ui_section_61e53d2cd24d1510da1039c77ac4dade</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-07-29 06:49:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="5_custom_portal_approval_x_820118_stds" name="5_custom_portal_approval_x_820118_stds">25e53d2c404d1510c32742def589a6de</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

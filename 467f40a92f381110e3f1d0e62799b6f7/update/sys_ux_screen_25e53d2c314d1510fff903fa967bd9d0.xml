@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Student App 32 Config">d5e53d2c2f4d1510e3f1d0e62799b69b</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckfhhjjlptggaaaaddoddhhhaccckywbbhhz",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_820118_stds.MODAL_SELECTED_RELAY_61e53d2c174d15101a2a24ff5abdd0d3",
+  "sourceEventDefinition" : {
+    "apiName" : "x_820118_stds.MODAL_SELECTED_RELAY_61e53d2c174d15101a2a24ff5abdd0d3",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          },
+          "bare" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "bare" ]
+            }
+          }
+        }
+      },
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"
+    },
+    "operation" : null,
+    "targetId" : "ckfhhjjlptffaaaaddnddhhhaiffabjjadd",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Security &amp; sign-in">61e53d2c174d15101a2a24ff5abdd0d3</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "2",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Security and login Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Settings Page">e9e53d2cea4d1510c4d73f8068766ddc</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Security and login">e5e53d2c9b4d1510afd3ac36a69f53db</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-29 06:49:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>25e53d2c314d1510fff903fa967bd9d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security and login Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ux_screen_25e53d2c314d1510fff903fa967bd9d0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-29 06:49:10</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=25e53d2c314d1510fff903fa967bd9d0"/>
+</record_update>
