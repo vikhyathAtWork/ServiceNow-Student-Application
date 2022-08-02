@@ -46,7 +46,7 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
-        <field_list>student_name,student_rollno,student_email,physics,chemistry,mathematics,computer_science,meeting</field_list>
+        <field_list>number,student_rollno,student,father_name,class,result,physics,chemistry,mathematics,remarks,sys_created_by,meeting</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -106,15 +106,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 15:50:32</sys_created_on>
         <sys_id>bcbe6bd22f781110e3f1d0e62799b69e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Scheduled Meetings</sys_name>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sys_report_bcbe6bd22f781110e3f1d0e62799b69e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-27 10:02:45</sys_updated_on>
-        <table>x_820118_stds_student_details_list</table>
+        <sys_updated_on>2022-08-01 07:46:05</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
         <title>Scheduled Meetings</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>

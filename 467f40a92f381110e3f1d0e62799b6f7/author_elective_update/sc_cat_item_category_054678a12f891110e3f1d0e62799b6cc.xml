@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="meeting scheduling">0d4474212f891110e3f1d0e62799b6a7</sc_cat_item>
+        <sc_category display_value="mycollege catagory">ef0230ad2f491110e3f1d0e62799b642</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 04:44:59</sys_created_on>
+        <sys_id>054678a12f891110e3f1d0e62799b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mycollege catagory.meeting scheduling</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sc_cat_item_category_054678a12f891110e3f1d0e62799b6cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 04:44:59</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sc_cat_item_category_054678a12f891110e3f1d0e62799b6cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="meeting scheduling">0d4474212f891110e3f1d0e62799b6a7</sc_cat_item><sc_category display_value="mycollege catagory">ef0230ad2f491110e3f1d0e62799b642</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-01 04:44:59</sys_created_on><sys_id>054678a12f891110e3f1d0e62799b6cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>mycollege catagory.meeting scheduling</sys_name><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sc_cat_item_category_054678a12f891110e3f1d0e62799b6cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-01 04:44:59</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2023293475</payload_hash>
+        <record_name>mycollege catagory.meeting scheduling</record_name>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 04:44:59</sys_created_on>
+        <sys_id>094678a12f891110e3f1d0e62799b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18257b8b81d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 04:44:59</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>8d4678a11d891110f9a2ac07f5a245d6</update_guid>
+        <update_guid_history>8d4678a11d891110f9a2ac07f5a245d6:2023293475</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="mycollege catagory.meeting scheduling">e746b8a12f891110e3f1d0e62799b6c6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 04:45:09</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>2afe6ce9d1d64291ab47470f04256ce1</sys_id>
+        <sys_metadata>054678a12f891110e3f1d0e62799b6cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mycollege catagory.meeting scheduling</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_054678a12f891110e3f1d0e62799b6cc</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_054678a12f891110e3f1d0e62799b6cc">094678a12f891110e3f1d0e62799b6d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 04:45:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

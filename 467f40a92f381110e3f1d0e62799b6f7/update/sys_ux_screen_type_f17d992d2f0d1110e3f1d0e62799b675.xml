@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>profile</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>zane.sulikowski</sys_created_by>
+        <sys_created_on>2022-08-01 07:36:15</sys_created_on>
+        <sys_id>f17d992d2f0d1110e3f1d0e62799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>profile</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ux_screen_type_f17d992d2f0d1110e3f1d0e62799b675</sys_update_name>
+        <sys_updated_by>zane.sulikowski</sys_updated_by>
+        <sys_updated_on>2022-08-01 07:36:15</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=f17d992d2f0d1110e3f1d0e62799b675"/>
+</record_update>

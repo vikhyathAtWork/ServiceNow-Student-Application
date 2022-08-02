@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>phone</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic>Email</kb_topic>
+        <label>Contact Us</label>
+        <order>1000</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="contact_us">1cd292e12f015110e3f1d0e62799b662</sp_page>
+        <sp_rectangle_menu display_value="Student header">a42a8ea92fcd1110e3f1d0e62799b675</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 11:24:17</sys_created_on>
+        <sys_id>90811e612f015110e3f1d0e62799b6a8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Contact Us</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_90811e612f015110e3f1d0e62799b6a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 11:59:18</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url>https://media.giphy.com/media/0KXekb55GlLIOdhXC8/giphy.gif</url>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=90811e612f015110e3f1d0e62799b6a8"/>
+</record_update>

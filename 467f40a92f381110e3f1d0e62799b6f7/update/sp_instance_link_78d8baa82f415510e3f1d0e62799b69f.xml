@@ -22,17 +22,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-29 11:41:29</sys_created_on>
         <sys_id>78d8baa82f415510e3f1d0e62799b69f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>input student data</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Input Student Data</sys_name>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sp_instance_link_78d8baa82f415510e3f1d0e62799b69f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 11:45:26</sys_updated_on>
-        <title>input student data</title>
-        <type>sc_cat_item</type>
-        <url/>
+        <sys_updated_on>2022-08-01 06:01:25</sys_updated_on>
+        <title>Input Student Data</title>
+        <type>url</type>
+        <url>https://dev58675.service-now.com/sp?id=sc_category&amp;sys_id=ef0230ad2f491110e3f1d0e62799b642&amp;catalog_id=e0d08b13c3330100c8b837659bba8fb4</url>
         <widget_parameters><![CDATA[{
 	"link_template": {
 		"value": "Top Icon",

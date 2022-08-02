@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">c3c159ed8ac9111030ea373c0769af3f</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">0bc159ed37c911104e804d3a7105673e</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-01 06:45:23</sys_created_on>
+        <sys_id>8fc159ed11c91110f55bf95f7b6a5c3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_8fc159ed11c91110f55bf95f7b6a5c3e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-01 06:45:23</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

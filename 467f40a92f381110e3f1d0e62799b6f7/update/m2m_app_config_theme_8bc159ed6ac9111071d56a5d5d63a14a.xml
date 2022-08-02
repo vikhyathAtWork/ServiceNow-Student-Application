@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">83c159edcbc9111027d98e41b29a844a</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-01 06:45:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bc159ed6ac9111071d56a5d5d63a14a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>m2m_app_config_theme_8bc159ed6ac9111071d56a5d5d63a14a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-01 06:45:18</sys_updated_on>
+        <theme display_value="Light Theme">07c159ed32c91110db1f2148b6d99f4a</theme>
+        <ux_app_configuration display_value="Student App Portal Config">7ac159ed2fc91110e3f1d0e62799b60f</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>
