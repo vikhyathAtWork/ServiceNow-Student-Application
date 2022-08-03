@@ -3,92 +3,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>chemistry</element>
-            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7536c9392fb85110e3f1d0e62799b677</list_id>
+            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd5d2f4e2f055110e3f1d0e62799b6a9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 14:17:27</sys_created_on>
-            <sys_id>fd36c9392fb85110e3f1d0e62799b677</sys_id>
+            <sys_created_on>2022-08-03 07:21:50</sys_created_on>
+            <sys_id>b95d2f4e2f055110e3f1d0e62799b6aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 14:17:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:21:50</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>computer_science</element>
-            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7536c9392fb85110e3f1d0e62799b677</list_id>
+            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd5d2f4e2f055110e3f1d0e62799b6a9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 14:17:27</sys_created_on>
-            <sys_id>f136c9392fb85110e3f1d0e62799b678</sys_id>
+            <sys_created_on>2022-08-03 07:21:50</sys_created_on>
+            <sys_id>bd5d2f4e2f055110e3f1d0e62799b6aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 14:17:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:21:50</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>mathematics</element>
-            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7536c9392fb85110e3f1d0e62799b677</list_id>
+            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd5d2f4e2f055110e3f1d0e62799b6a9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 14:17:27</sys_created_on>
-            <sys_id>f536c9392fb85110e3f1d0e62799b678</sys_id>
+            <sys_created_on>2022-08-03 07:21:50</sys_created_on>
+            <sys_id>b15d2f4e2f055110e3f1d0e62799b6ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 14:17:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:21:50</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>physics</element>
-            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7536c9392fb85110e3f1d0e62799b677</list_id>
+            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd5d2f4e2f055110e3f1d0e62799b6a9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 14:17:27</sys_created_on>
-            <sys_id>f936c9392fb85110e3f1d0e62799b678</sys_id>
+            <sys_created_on>2022-08-03 07:21:50</sys_created_on>
+            <sys_id>b55d2f4e2f055110e3f1d0e62799b6ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 14:17:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:21:50</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>student_name</element>
-            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7536c9392fb85110e3f1d0e62799b677</list_id>
+            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd5d2f4e2f055110e3f1d0e62799b6a9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 14:17:27</sys_created_on>
-            <sys_id>fd36c9392fb85110e3f1d0e62799b678</sys_id>
+            <sys_created_on>2022-08-03 07:21:50</sys_created_on>
+            <sys_id>b95d2f4e2f055110e3f1d0e62799b6ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 14:17:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:21:50</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>student_rollno</element>
-            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7536c9392fb85110e3f1d0e62799b677</list_id>
+            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd5d2f4e2f055110e3f1d0e62799b6a9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 14:17:27</sys_created_on>
-            <sys_id>f136c9392fb85110e3f1d0e62799b679</sys_id>
+            <sys_created_on>2022-08-03 07:21:50</sys_created_on>
+            <sys_id>bd5d2f4e2f055110e3f1d0e62799b6ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 14:17:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:21:50</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="x_820118_stds_student_details_list" element="NULL" name="x_820118_stds_student_details_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd5d2f4e2f055110e3f1d0e62799b6a9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-03 07:21:50</sys_created_on>
+            <sys_id>b15d2f4e2f055110e3f1d0e62799b6ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-03 07:21:50</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +117,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 14:17:27</sys_created_on>
+            <sys_created_on>2022-08-03 07:21:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7536c9392fb85110e3f1d0e62799b677</sys_id>
+            <sys_id>fd5d2f4e2f055110e3f1d0e62799b6a9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_820118_stds_student_details_list</sys_name>
             <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
@@ -113,7 +128,7 @@
             <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
             <sys_update_name>sys_ui_list_x_820118_stds_student_details_list_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 14:17:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:21:50</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

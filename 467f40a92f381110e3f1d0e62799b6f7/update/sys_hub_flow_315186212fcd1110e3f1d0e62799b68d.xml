@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>email send to the student email</description>
         <internal_name>meeting_flow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.father_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Father Name","reference":"","reference_display":"Father Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_result_table","column_name":"father_name"},{"name":"Created or Updated_1.current.student","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Student Name","reference":"x_820118_stds_student_details_list","reference_display":"Student Details List","type":"reference","base_type":"reference","parent_table_name":"x_820118_stds_student_result_table","column_name":"student"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Student Result Table Record","reference":"x_820118_stds_student_result_table","reference_display":"Student Result Table","type":"reference","base_type":"reference","attributes":{}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.meeting","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Meeting","reference":"","reference_display":"Meeting","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"meeting"},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"sys_created_on"}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.meeting","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Meeting","reference":"","reference_display":"Meeting","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"meeting"},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Student Result Table Record","reference":"x_820118_stds_student_result_table","reference_display":"Student Result Table","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.student","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Student Name","reference":"x_820118_stds_student_details_list","reference_display":"Student Details List","type":"reference","base_type":"reference","parent_table_name":"x_820118_stds_student_result_table","column_name":"student"},{"name":"Created or Updated_1.current.father_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Father Name","reference":"","reference_display":"Father Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_result_table","column_name":"father_name"},{"name":"Created or Updated_1.current.result","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Result","reference":"","reference_display":"Result","type":"choice","base_type":"choice","parent_table_name":"x_820118_stds_student_result_table","column_name":"result","choices":[{"label":"-- None --","used":false,"reference":false,"rawLabel":"-- None --","image":"","selected":false,"missing":false,"value":""},{"label":"Pass","used":false,"reference":false,"rawLabel":"Pass","image":"","selected":false,"missing":false,"value":"1","parameters":{"name":"x_820118_stds_student_result_table"}},{"label":"Fail","used":false,"reference":false,"rawLabel":"Fail","image":"","selected":false,"missing":false,"value":"2","parameters":{"name":"x_820118_stds_student_result_table"}},{"label":"Hold","used":false,"reference":false,"rawLabel":"Hold","image":"","selected":false,"missing":false,"value":"3","parameters":{"name":"x_820118_stds_student_result_table"}},{"label":"With Held","used":false,"reference":false,"rawLabel":"With Held","image":"","selected":false,"missing":false,"value":"7","parameters":{"name":"x_820118_stds_student_result_table"}}]},{"name":"Created or Updated_1.run_start_date_time","label":"Trigger - Record Created or Updated➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"ab6f62d5-24c1-40a9-bb12-490e088c38f8.email","label":"4 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab6f62d5-24c1-40a9-bb12-490e088c38f8.__action_status__","label":"4 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ab6f62d5-24c1-40a9-bb12-490e088c38f8.__dont_treat_as_error__","label":"4 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
         <master_snapshot>db430ea12fcd1110e3f1d0e62799b608</master_snapshot>
         <name>Meeting flow</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>315186212fcd1110e3f1d0e62799b68d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Meeting flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sys_hub_flow_315186212fcd1110e3f1d0e62799b68d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:36</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:47:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=315186212fcd1110e3f1d0e62799b68d"/>
@@ -69,30 +69,30 @@
         <table>x_820118_stds_student_result_table</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"fb430ea12fcd1110e3f1d0e62799b69d","name":"trigger_runner","type":"java.util.HashMap"}</data>
+        <active>false</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"d53b1e392f411110e3f1d0e62799b6f8","name":"trigger_runner","type":"java.util.HashMap"}</data>
         <identifier>315186212fcd1110e3f1d0e62799b68d</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-01 10:21:35</sys_created_on>
-        <sys_id>fb430ea12fcd1110e3f1d0e62799b69d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2022-08-02 06:44:30</sys_created_on>
+        <sys_id>d53b1e392f411110e3f1d0e62799b6f8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:24:28</sys_updated_on>
+        <sys_updated_on>2022-08-02 07:04:42</sys_updated_on>
         <trigger display_value="">63a181352fb85110e3f1d0e62799b6a8</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MiZGWoTYkAEFVsdC0N1iY2oY+KyjnmaXU2XzUPPEWAtljKEIqH749EIigd31JfG/42XNK+wHxPKN7oYAAAA=</data>
-        <document_id>fb430ea12fcd1110e3f1d0e62799b69d</document_id>
+        <document_id>d53b1e392f411110e3f1d0e62799b6f8</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-01 10:24:28</sys_created_on>
-        <sys_id>4af3cee12fcd1110e3f1d0e62799b600</sys_id>
+        <sys_created_on>2022-08-02 07:04:42</sys_created_on>
+        <sys_id>99df9a7d2f411110e3f1d0e62799b69a</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=315186212fcd1110e3f1d0e62799b68d^sys_idNOT INfb430ea12fcd1110e3f1d0e62799b69d"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=315186212fcd1110e3f1d0e62799b68d^sys_idNOT INd53b1e392f411110e3f1d0e62799b6f8"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=315186212fcd1110e3f1d0e62799b68d^sys_idNOT INa9438aa12fcd1110e3f1d0e62799b6bc"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -103,10 +103,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:26</sys_created_on>
         <sys_id>a9438aa12fcd1110e3f1d0e62799b6bc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:36</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:30</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -233,14 +233,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:25</sys_created_on>
         <sys_id>99434aa12fcd1110e3f1d0e62799b65f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:35</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -256,7 +256,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDbf430ea160cd11102abd29591bfcafa2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD6c3b1e39cb4111105800d02a80292b8e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -314,14 +314,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:26</sys_created_on>
         <sys_id>a1438aa12fcd1110e3f1d0e62799b6a7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:36</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -395,14 +395,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:26</sys_created_on>
         <sys_id>ed438aa12fcd1110e3f1d0e62799b6aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:35</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -416,7 +416,162 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=315186212fcd1110e3f1d0e62799b68d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=315186212fcd1110e3f1d0e62799b68d"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=315186212fcd1110e3f1d0e62799b68d^sys_idNOT IN6d438aa12fcd1110e3f1d0e62799b6d6"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=315186212fcd1110e3f1d0e62799b68d^sys_idNOT IN232bda392f411110e3f1d0e62799b6a5,6d438aa12fcd1110e3f1d0e62799b6d6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Meeting flow">315186212fcd1110e3f1d0e62799b68d</flow>
+        <order>4</order>
+        <parent_ui_id>57f4be2a-257f-494f-a6e7-b7a435b893e2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>232bda392f411110e3f1d0e62799b6a5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:45:29</sys_updated_on>
+        <ui_id>ab6f62d5-24c1-40a9-bb12-490e088c38f8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=232bda392f411110e3f1d0e62799b6a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>232bda392f411110e3f1d0e62799b6a5</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>272bda392f411110e3f1d0e62799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>232bda392f411110e3f1d0e62799b6a5</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>ab2bda392f411110e3f1d0e62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <value>shashank.h-s@capgemini.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>232bda392f411110e3f1d0e62799b6a5</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>ab2bda392f411110e3f1d0e62799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <value>your son is passed</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>232bda392f411110e3f1d0e62799b6a5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>e72bda392f411110e3f1d0e62799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <value>x_820118_stds_student_result_table</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=232bda392f411110e3f1d0e62799b6a5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>232bda392f411110e3f1d0e62799b6a5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>ef2bda392f411110e3f1d0e62799b6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;meeting is scheduled as you son is&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:c22c8a51-9038-4f34-861c-3586b3d083a2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Result"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Result&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c22c8a51-9038-4f34-861c-3586b3d083a2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;parents meeting is scheduled on&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:c4d25292-2d2d-4acf-aad6-f996cbd0a8c8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Meeting"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Meeting&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c4d25292-2d2d-4acf-aad6-f996cbd0a8c8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>232bda392f411110e3f1d0e62799b6a5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>2b2bda392f411110e3f1d0e62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>232bda392f411110e3f1d0e62799b6a5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>2b2bda392f411110e3f1d0e62799b6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>232bda392f411110e3f1d0e62799b6a5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>a32bda392f411110e3f1d0e62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>232bda392f411110e3f1d0e62799b6a5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>672bda392f411110e3f1d0e62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=232bda392f411110e3f1d0e62799b6a5^sys_idNOT INe72bda392f411110e3f1d0e62799b6a6"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>232bda392f411110e3f1d0e62799b6a5</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>e72bda392f411110e3f1d0e62799b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=232bda392f411110e3f1d0e62799b6a5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -432,10 +587,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:26</sys_created_on>
         <sys_id>6d438aa12fcd1110e3f1d0e62799b6d6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:22:15</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:45:29</sys_updated_on>
         <ui_id>09ff61ed-972b-4d9b-b24c-94c96505fdfd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6d438aa12fcd1110e3f1d0e62799b6d6"/>
@@ -488,11 +643,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:26</sys_created_on>
         <sys_id>e1438aa12fcd1110e3f1d0e62799b6d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:26</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;Hai,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:fd91c7ef-668c-4956-9ce3-15c0ff4907d2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:fd91c7ef-668c-4956-9ce3-15c0ff4907d2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Student Result Table Record &amp;gt; Father Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Father Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_fd91c7ef-668c-4956-9ce3-15c0ff4907d2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;as your son is&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:85a066d0-a754-4c6d-bac5-2b45e7723cb8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:85a066d0-a754-4c6d-bac5-2b45e7723cb8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Student Result Table Record &amp;gt; Result"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Result&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_85a066d0-a754-4c6d-bac5-2b45e7723cb8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;you have a parents teaching meeting on&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:1aedae9e-6231-4151-8982-b6027b4c1a2d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Meeting"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Meeting&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1aedae9e-6231-4151-8982-b6027b4c1a2d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -546,7 +702,39 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=6d438aa12fcd1110e3f1d0e62799b6d6"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6d438aa12fcd1110e3f1d0e62799b6d6"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=315186212fcd1110e3f1d0e62799b68d"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=315186212fcd1110e3f1d0e62799b68d^sys_idNOT INe5438aa12fcd1110e3f1d0e62799b6bf"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=315186212fcd1110e3f1d0e62799b68d^sys_idNOT INdf2bda392f411110e3f1d0e62799b69c,e5438aa12fcd1110e3f1d0e62799b6bf"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">572bda392f411110e3f1d0e62799b69c</block>
+        <comment/>
+        <connected_to>916d1841-0a75-4e24-b1c3-2a61a9cb996a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Meeting flow">315186212fcd1110e3f1d0e62799b68d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>df2bda392f411110e3f1d0e62799b69c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:31</sys_updated_on>
+        <ui_id>57f4be2a-257f-494f-a6e7-b7a435b893e2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=df2bda392f411110e3f1d0e62799b69c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=df2bda392f411110e3f1d0e62799b69c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=df2bda392f411110e3f1d0e62799b69c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a9438aa12fcd1110e3f1d0e62799b6be</block>
         <comment/>
@@ -569,10 +757,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:26</sys_created_on>
         <sys_id>e5438aa12fcd1110e3f1d0e62799b6bf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:36</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:30</sys_updated_on>
         <ui_id>916d1841-0a75-4e24-b1c3-2a61a9cb996a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -599,11 +787,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:26</sys_created_on>
         <sys_id>ed438aa12fcd1110e3f1d0e62799b6c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:26</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created or Updated_1.current.sys_created_on}}ON{{Created or Updated_1.current.meeting}}</value>
+        <value>{{Created or Updated_1.current.result}}=2^{{Created or Updated_1.current.meeting}}ON{{Created or Updated_1.run_start_date_time}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -619,7 +807,24 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e5438aa12fcd1110e3f1d0e62799b6bf"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e5438aa12fcd1110e3f1d0e62799b6bf"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=315186212fcd1110e3f1d0e62799b68d^sys_idNOT IN69438aa12fcd1110e3f1d0e62799b6dc,a1438aa12fcd1110e3f1d0e62799b6dc"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=315186212fcd1110e3f1d0e62799b68d^sys_idNOT IN2f2bda392f411110e3f1d0e62799b6ac,69438aa12fcd1110e3f1d0e62799b6dc,a1438aa12fcd1110e3f1d0e62799b6dc,e32bda392f411110e3f1d0e62799b6ac,ef2bda392f411110e3f1d0e62799b6ac"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>315186212fcd1110e3f1d0e62799b68d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.result}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>2f2bda392f411110e3f1d0e62799b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c22c8a51-9038-4f34-861c-3586b3d083a2</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>315186212fcd1110e3f1d0e62799b68d</attached_to>
         <extra_info/>
@@ -653,6 +858,40 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>fd91c7ef-668c-4956-9ce3-15c0ff4907d2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>315186212fcd1110e3f1d0e62799b68d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.result}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>e32bda392f411110e3f1d0e62799b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>85a066d0-a754-4c6d-bac5-2b45e7723cb8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>315186212fcd1110e3f1d0e62799b68d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.meeting}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:22</sys_created_on>
+        <sys_id>ef2bda392f411110e3f1d0e62799b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c4d25292-2d2d-4acf-aad6-f996cbd0a8c8</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=315186212fcd1110e3f1d0e62799b68d"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_315186212fcd1110e3f1d0e62799b68d^sys_idNOT IN21438aa12fcd1110e3f1d0e62799b6aa,29438aa12fcd1110e3f1d0e62799b6ad,d1438aa12fcd1110e3f1d0e62799b6a6"/>
@@ -733,17 +972,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"b7430ea12fcd1110e3f1d0e62799b69e","name":"plan","plan_signature":null}}</plan>
         <plan_id>315186212fcd1110e3f1d0e62799b68d</plan_id>
-        <snapshot>dd7382e12fcd1110e3f1d0e62799b661</snapshot>
+        <snapshot>af6b52792f411110e3f1d0e62799b68e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b7430ea12fcd1110e3f1d0e62799b69e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:35</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:30</sys_updated_on>
         <trigger display_value="">63a181352fb85110e3f1d0e62799b6a8</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=315186212fcd1110e3f1d0e62799b68d"/>
@@ -758,7 +997,7 @@
         <copied_from_name/>
         <description>email send to the student email</description>
         <internal_name>meeting_flow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.father_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Father Name","reference":"","reference_display":"Father Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_result_table","column_name":"father_name"},{"name":"Created or Updated_1.current.student","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Student Name","reference":"x_820118_stds_student_details_list","reference_display":"Student Details List","type":"reference","base_type":"reference","parent_table_name":"x_820118_stds_student_result_table","column_name":"student"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Student Result Table Record","reference":"x_820118_stds_student_result_table","reference_display":"Student Result Table","type":"reference","base_type":"reference","attributes":{}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.meeting","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Meeting","reference":"","reference_display":"Meeting","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"meeting"},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"sys_created_on"}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.meeting","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Meeting","reference":"","reference_display":"Meeting","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"meeting"},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09ff61ed-972b-4d9b-b24c-94c96505fdfd.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Student Result Table Record","reference":"x_820118_stds_student_result_table","reference_display":"Student Result Table","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.student","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Student Name","reference":"x_820118_stds_student_details_list","reference_display":"Student Details List","type":"reference","base_type":"reference","parent_table_name":"x_820118_stds_student_result_table","column_name":"student"},{"name":"Created or Updated_1.current.father_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Father Name","reference":"","reference_display":"Father Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_result_table","column_name":"father_name"},{"name":"Created or Updated_1.current.result","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Result","reference":"","reference_display":"Result","type":"choice","base_type":"choice","parent_table_name":"x_820118_stds_student_result_table","column_name":"result","choices":[{"label":"-- None --","used":false,"reference":false,"rawLabel":"-- None --","image":"","selected":false,"missing":false,"value":""},{"label":"Pass","used":false,"reference":false,"rawLabel":"Pass","image":"","selected":false,"missing":false,"value":"1","parameters":{"name":"x_820118_stds_student_result_table"}},{"label":"Fail","used":false,"reference":false,"rawLabel":"Fail","image":"","selected":false,"missing":false,"value":"2","parameters":{"name":"x_820118_stds_student_result_table"}},{"label":"Hold","used":false,"reference":false,"rawLabel":"Hold","image":"","selected":false,"missing":false,"value":"3","parameters":{"name":"x_820118_stds_student_result_table"}},{"label":"With Held","used":false,"reference":false,"rawLabel":"With Held","image":"","selected":false,"missing":false,"value":"7","parameters":{"name":"x_820118_stds_student_result_table"}}]},{"name":"Created or Updated_1.run_start_date_time","label":"Trigger - Record Created or Updated➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"ab6f62d5-24c1-40a9-bb12-490e088c38f8.email","label":"4 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab6f62d5-24c1-40a9-bb12-490e088c38f8.__action_status__","label":"4 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ab6f62d5-24c1-40a9-bb12-490e088c38f8.__dont_treat_as_error__","label":"4 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
         <master>true</master>
         <name>Meeting flow</name>
         <natlang/>
@@ -775,7 +1014,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>db430ea12fcd1110e3f1d0e62799b608</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -783,7 +1022,7 @@
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:33</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=db430ea12fcd1110e3f1d0e62799b608"/>
@@ -798,10 +1037,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:34</sys_created_on>
         <sys_id>a3430ea12fcd1110e3f1d0e62799b671</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:35</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:30</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -870,7 +1109,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD1b430ea165cd11100990c4de37cd530a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD6c3b1e39cb4111105800d02a80292b8e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -928,14 +1167,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:34</sys_created_on>
         <sys_id>1f430ea12fcd1110e3f1d0e62799b634</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:34</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -951,7 +1190,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1009,14 +1248,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:33</sys_created_on>
         <sys_id>d3430ea12fcd1110e3f1d0e62799b619</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:33</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1032,7 +1271,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1090,14 +1329,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:34</sys_created_on>
         <sys_id>e3430ea12fcd1110e3f1d0e62799b63d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:34</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1111,7 +1350,162 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=db430ea12fcd1110e3f1d0e62799b608"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=db430ea12fcd1110e3f1d0e62799b608"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=db430ea12fcd1110e3f1d0e62799b608^sys_idNOT INef430ea12fcd1110e3f1d0e62799b66d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=db430ea12fcd1110e3f1d0e62799b608^sys_idNOT IN2c3b1e392f411110e3f1d0e62799b681,ef430ea12fcd1110e3f1d0e62799b66d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Meeting flow">db430ea12fcd1110e3f1d0e62799b608</flow>
+        <order>4</order>
+        <parent_ui_id>57f4be2a-257f-494f-a6e7-b7a435b893e2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>2c3b1e392f411110e3f1d0e62799b681</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
+        <ui_id>ab6f62d5-24c1-40a9-bb12-490e088c38f8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2c3b1e392f411110e3f1d0e62799b681"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2c3b1e392f411110e3f1d0e62799b681</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>283b1e392f411110e3f1d0e62799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+        <value>shashank.h-s@capgemini.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2c3b1e392f411110e3f1d0e62799b681</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>603b1e392f411110e3f1d0e62799b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+        <value>your son is passed</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2c3b1e392f411110e3f1d0e62799b681</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>ac3b1e392f411110e3f1d0e62799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+        <value>x_820118_stds_student_result_table</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2c3b1e392f411110e3f1d0e62799b681</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>e83b1e392f411110e3f1d0e62799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2c3b1e392f411110e3f1d0e62799b681"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>2c3b1e392f411110e3f1d0e62799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>6c3b1e392f411110e3f1d0e62799b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;meeting is scheduled as you son is&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:c22c8a51-9038-4f34-861c-3586b3d083a2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Result"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Result&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c22c8a51-9038-4f34-861c-3586b3d083a2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;parents meeting is scheduled on&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:c4d25292-2d2d-4acf-aad6-f996cbd0a8c8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Meeting"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Meeting&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c4d25292-2d2d-4acf-aad6-f996cbd0a8c8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>2c3b1e392f411110e3f1d0e62799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>a43b1e392f411110e3f1d0e62799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>2c3b1e392f411110e3f1d0e62799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>a83b1e392f411110e3f1d0e62799b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2c3b1e392f411110e3f1d0e62799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>203b1e392f411110e3f1d0e62799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2c3b1e392f411110e3f1d0e62799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>e03b1e392f411110e3f1d0e62799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2c3b1e392f411110e3f1d0e62799b681^sys_idNOT INec3b1e392f411110e3f1d0e62799b682"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>2c3b1e392f411110e3f1d0e62799b681</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>ec3b1e392f411110e3f1d0e62799b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2c3b1e392f411110e3f1d0e62799b681"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1127,10 +1521,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:34</sys_created_on>
         <sys_id>ef430ea12fcd1110e3f1d0e62799b66d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:34</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
         <ui_id>09ff61ed-972b-4d9b-b24c-94c96505fdfd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ef430ea12fcd1110e3f1d0e62799b66d"/>
@@ -1183,11 +1577,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:34</sys_created_on>
         <sys_id>6f430ea12fcd1110e3f1d0e62799b66f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:34</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;Hai,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:fd91c7ef-668c-4956-9ce3-15c0ff4907d2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:fd91c7ef-668c-4956-9ce3-15c0ff4907d2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Student Result Table Record &amp;gt; Father Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Father Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_fd91c7ef-668c-4956-9ce3-15c0ff4907d2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;as your son is&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:85a066d0-a754-4c6d-bac5-2b45e7723cb8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:85a066d0-a754-4c6d-bac5-2b45e7723cb8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Student Result Table Record &amp;gt; Result"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Result&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_85a066d0-a754-4c6d-bac5-2b45e7723cb8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;you have a parents teaching meeting on&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:1aedae9e-6231-4151-8982-b6027b4c1a2d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Meeting"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Meeting&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1aedae9e-6231-4151-8982-b6027b4c1a2d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1241,7 +1636,39 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=ef430ea12fcd1110e3f1d0e62799b66d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ef430ea12fcd1110e3f1d0e62799b66d"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=db430ea12fcd1110e3f1d0e62799b608"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=db430ea12fcd1110e3f1d0e62799b608^sys_idNOT INe3430ea12fcd1110e3f1d0e62799b649"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=db430ea12fcd1110e3f1d0e62799b608^sys_idNOT INa03b1e392f411110e3f1d0e62799b68c,e3430ea12fcd1110e3f1d0e62799b649"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">572bda392f411110e3f1d0e62799b69c</block>
+        <comment/>
+        <connected_to>916d1841-0a75-4e24-b1c3-2a61a9cb996a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Meeting flow">db430ea12fcd1110e3f1d0e62799b608</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:26</sys_created_on>
+        <sys_id>a03b1e392f411110e3f1d0e62799b68c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
+        <ui_id>57f4be2a-257f-494f-a6e7-b7a435b893e2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a03b1e392f411110e3f1d0e62799b68c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a03b1e392f411110e3f1d0e62799b68c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a03b1e392f411110e3f1d0e62799b68c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a9438aa12fcd1110e3f1d0e62799b6be</block>
         <comment/>
@@ -1264,10 +1691,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:34</sys_created_on>
         <sys_id>e3430ea12fcd1110e3f1d0e62799b649</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:34</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
         <ui_id>916d1841-0a75-4e24-b1c3-2a61a9cb996a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1294,11 +1721,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 10:21:34</sys_created_on>
         <sys_id>a7430ea12fcd1110e3f1d0e62799b665</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 10:21:34</sys_updated_on>
+        <sys_updated_on>2022-08-02 06:44:26</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created or Updated_1.current.sys_created_on}}ON{{Created or Updated_1.current.meeting}}</value>
+        <value>{{Created or Updated_1.current.result}}=2^{{Created or Updated_1.current.meeting}}ON{{Created or Updated_1.run_start_date_time}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1314,7 +1741,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e3430ea12fcd1110e3f1d0e62799b649"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e3430ea12fcd1110e3f1d0e62799b649"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=db430ea12fcd1110e3f1d0e62799b608^sys_idNOT IN23430ea12fcd1110e3f1d0e62799b673,a3430ea12fcd1110e3f1d0e62799b673"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=db430ea12fcd1110e3f1d0e62799b608^sys_idNOT IN23430ea12fcd1110e3f1d0e62799b673,383b1e392f411110e3f1d0e62799b6b2,3c3b1e392f411110e3f1d0e62799b6b2,a3430ea12fcd1110e3f1d0e62799b673,fc3b1e392f411110e3f1d0e62799b6b2"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>db430ea12fcd1110e3f1d0e62799b608</attached_to>
         <extra_info/>
@@ -1336,6 +1763,40 @@
         <attached_to>db430ea12fcd1110e3f1d0e62799b608</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created or Updated_1.current.result}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:27</sys_created_on>
+        <sys_id>383b1e392f411110e3f1d0e62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c22c8a51-9038-4f34-861c-3586b3d083a2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>db430ea12fcd1110e3f1d0e62799b608</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.meeting}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:27</sys_created_on>
+        <sys_id>3c3b1e392f411110e3f1d0e62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c4d25292-2d2d-4acf-aad6-f996cbd0a8c8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>db430ea12fcd1110e3f1d0e62799b608</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created or Updated_1.current.meeting}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -1348,6 +1809,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>1aedae9e-6231-4151-8982-b6027b4c1a2d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>db430ea12fcd1110e3f1d0e62799b608</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.result}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 06:44:27</sys_created_on>
+        <sys_id>fc3b1e392f411110e3f1d0e62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 06:44:27</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>85a066d0-a754-4c6d-bac5-2b45e7723cb8</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=db430ea12fcd1110e3f1d0e62799b608"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_db430ea12fcd1110e3f1d0e62799b608^sys_idNOT IN6f430ea12fcd1110e3f1d0e62799b641,ab430ea12fcd1110e3f1d0e62799b639,d3430ea12fcd1110e3f1d0e62799b631"/>

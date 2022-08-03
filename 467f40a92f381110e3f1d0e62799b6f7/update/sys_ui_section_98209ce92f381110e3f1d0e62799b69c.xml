@@ -4,13 +4,13 @@
             <element>principal</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 06:25:27</sys_created_on>
-            <sys_id>3b2ad7ed2ff05110e3f1d0e62799b69b</sys_id>
+            <sys_created_on>2022-08-03 07:01:52</sys_created_on>
+            <sys_id>61c8ebc62f055110e3f1d0e62799b656</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 06:25:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:01:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 06:25:27</sys_created_on>
-            <sys_id>bb2ad7ed2ff05110e3f1d0e62799b69b</sys_id>
+            <sys_created_on>2022-08-03 07:01:52</sys_created_on>
+            <sys_id>29c8ebc62f055110e3f1d0e62799b656</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 06:25:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:01:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>student_rollno</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 06:25:27</sys_created_on>
-            <sys_id>3f2ad7ed2ff05110e3f1d0e62799b69b</sys_id>
+            <sys_created_on>2022-08-03 07:01:52</sys_created_on>
+            <sys_id>a9c8ebc62f055110e3f1d0e62799b656</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 06:25:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:01:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>class</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 06:25:27</sys_created_on>
-            <sys_id>bf2ad7ed2ff05110e3f1d0e62799b69b</sys_id>
+            <sys_created_on>2022-08-03 07:01:52</sys_created_on>
+            <sys_id>2dc8ebc62f055110e3f1d0e62799b656</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 06:25:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:01:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 06:25:27</sys_created_on>
-            <sys_id>332ad7ed2ff05110e3f1d0e62799b69c</sys_id>
+            <sys_created_on>2022-08-03 07:01:52</sys_created_on>
+            <sys_id>adc8ebc62f055110e3f1d0e62799b656</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 06:25:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:01:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>student</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 06:25:27</sys_created_on>
-            <sys_id>b32ad7ed2ff05110e3f1d0e62799b69c</sys_id>
+            <sys_created_on>2022-08-03 07:01:52</sys_created_on>
+            <sys_id>21c8ebc62f055110e3f1d0e62799b657</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 06:25:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:01:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>student_email</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 06:25:27</sys_created_on>
-            <sys_id>372ad7ed2ff05110e3f1d0e62799b69c</sys_id>
+            <sys_created_on>2022-08-03 07:01:52</sys_created_on>
+            <sys_id>a1c8ebc62f055110e3f1d0e62799b657</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 06:25:27</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:01:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,41 +102,27 @@
             <element>father_name</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 06:25:27</sys_created_on>
-            <sys_id>b72ad7ed2ff05110e3f1d0e62799b69c</sys_id>
+            <sys_created_on>2022-08-03 07:01:52</sys_created_on>
+            <sys_id>25c8ebc62f055110e3f1d0e62799b657</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 06:25:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-20 14:26:16</sys_created_on>
-            <sys_id>fe388d792fb85110e3f1d0e62799b678</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-20 14:26:16</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:01:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>meeting</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-22 07:04:46</sys_created_on>
-            <sys_id>1356b1d62f701110e3f1d0e62799b695</sys_id>
+            <sys_created_on>2022-08-03 07:01:52</sys_created_on>
+            <sys_id>a5c8ebc62f055110e3f1d0e62799b657</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820118_stds_student_result_table" sys_domain="global" view="Default view">98209ce92f381110e3f1d0e62799b69c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-22 07:04:46</sys_updated_on>
+            <sys_updated_on>2022-08-03 07:01:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

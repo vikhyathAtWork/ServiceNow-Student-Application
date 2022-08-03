@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>danger</color>
+        <css/>
+        <glyph>address-card-o</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">b05426af2fb45110e3f1d0e62799b63f</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 07:09:33</sys_created_on>
+        <sys_id>ce8a6b8a2f055110e3f1d0e62799b63f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Add Student Data</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_instance_link_ce8a6b8a2f055110e3f1d0e62799b63f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 07:11:36</sys_updated_on>
+        <title>Add Student Data</title>
+        <type>url</type>
+        <url>https://dev58675.service-now.com/nav_to.do?uri=%2Fx_820118_stds_student_result_table.do%3Fsys_id%3D-1%26sysparm_stack%3Dx_820118_stds_student_result_table_list.do</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=ce8a6b8a2f055110e3f1d0e62799b63f"/>
+</record_update>
