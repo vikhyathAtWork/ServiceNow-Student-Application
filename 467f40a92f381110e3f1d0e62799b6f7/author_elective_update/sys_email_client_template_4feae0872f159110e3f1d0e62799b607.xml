@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="DELETE">
+        <blind_copied/>
+        <body/>
+        <body_html><![CDATA[<p>&nbsp;</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" title="" src="sys_attachment.do?sys_id=f83812122f511110223051072799b630" alt="" width="270" height="80" align="baseline" border="" hspace="" vspace="" data-original-title="" /><span id="alttext-container"><br /><img id="alttext-image" width="16" height="16" align="left" /><span id="alttext"></span></span></p>
+<p style="text-align: center;"><span style="text-decoration: underline; font-size: 12pt;"><strong>XLR Pre University College</strong></span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p><span style="font-size: 12pt;"><strong>Dear:&nbsp;</strong>Father Name:&nbsp;<span style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f2d0912b-2599-49ca-896e-878743634246}}"><span contenteditable="false" data-pillvalue="{{fd_transform:f2d0912b-2599-49ca-896e-878743634246}}"><span data-tip="Trigger - Record Created or Updated &gt; Student Result Table Record &gt; Father Name" data-for="ah_tooltipTop">Trigger - Record Created or Updated➛...➛Father Name</span><button id="transform_function_facade_f2d0912b-2599-49ca-896e-878743634246"></button></span></span>,</span><span style="text-decoration: underline; font-size: 12pt;"><strong><br /></strong></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;">As the college result are announced, your son Student Name:&nbsp;<span contenteditable="false" data-pillvalue="{{fd_transform:ddd185d1-9ad6-44c0-9b69-09f7f1852bd5}}"><span data-tip="Trigger &gt; Student Result Table Record &gt; Student Name" data-for="ah_tooltipTop">Trigger➛...➛Student Name</span><button id="transform_function_facade_ddd185d1-9ad6-44c0-9b69-09f7f1852bd5"></button></span>,<br /></span></p>
+<p><span style="font-size: 12pt;">got Percentage:&nbsp;<span contenteditable="false" data-pillvalue="{{fd_transform:936d4d7b-1b97-4ef7-82ca-379d4d679079}}"><span data-tip="Trigger &gt; Student Result Table Record &gt; Percentage" data-for="ah_tooltipTop">Trigger➛...➛Percentage</span><button id="transform_function_facade_936d4d7b-1b97-4ef7-82ca-379d4d679079"></button></span>&nbsp;and result is Result:&nbsp;<span contenteditable="false" data-pillvalue="{{fd_transform:c57e4e10-cfc6-409b-9d80-23da98aecebe}}"><span data-tip="Trigger &gt; Student Result Table Record &gt; Result" data-for="ah_tooltipTop">Trigger➛...➛Result</span><button id="transform_function_facade_c57e4e10-cfc6-409b-9d80-23da98aecebe"></button></span>.<br /></span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 10pt;"><em>To Check the Result of you son/daughter&nbsp;</em></span></strong></p>
+<p><strong><span style="font-size: 10pt;"><em>click the link below,</em></span></strong></p>
+<p><span style="font-size: 14pt;"><strong><em><a href="https://dev80469.service-now.com/ss?id=student_result_page" target="_blank" rel="noopener" data-original-title="result">result</a></em></strong></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;">And as the student performance is Good/Bad we are conducting the parents teacher meeting on Meeting:&nbsp;<span contenteditable="false" data-pillvalue="{{fd_transform:7d7bf8b7-f258-4493-b685-cef1f139a625}}"><span data-tip="Trigger &gt; Student Result Table Record &gt; Meeting" data-for="ah_tooltipTop">Trigger➛...➛Meeting</span><button id="transform_function_facade_7d7bf8b7-f258-4493-b685-cef1f139a625"></button></span>.<br /></span></p>
+<p><span style="font-size: 12pt;">Please attend the meeting without fail.</span></p>
+<p><span style="font-size: 12pt;">Meeting details will sent to you soon.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;">From:</span></p>
+<p><span style="font-size: 12pt;">KLR Pre University College&nbsp;</span></p>
+<p><span style="font-size: 12pt;">Principal<br /></span></p>
+<p><span style="font-size: 12pt;">Banglore</span></p>
+<p><span style="font-size: 12pt;">560069</span></p>
+<p data-tinymcerootblock="">&nbsp;</p>
+<p>&nbsp;</p>]]></body_html>
+        <condition table="x_820118_stds_student_result_table">result=1^ORresult=2^EQ<item display_value="Pass" endquery="false" field="result" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="Fail" endquery="false" field="result" goto="false" newquery="false" operator="=" or="true" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <copied>vikhyath.p@capgemini.com</copied>
+        <email_client_from_address/>
+        <from>XLR Pre University College</from>
+        <from_generation_type>text</from_generation_type>
+        <name>Demo EMail Template</name>
+        <order>90</order>
+        <recipients>shashank.h-s@capgemini.com</recipients>
+        <reply_to/>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>Result is Announced</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-18 06:07:10</sys_created_on>
+        <sys_id>4feae0872f159110e3f1d0e62799b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo EMail Template</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_email_client_template_4feae0872f159110e3f1d0e62799b607</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-18 06:07:10</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
+    </sys_email_client_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_email_client_template_4feae0872f159110e3f1d0e62799b607</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_email_client_template"&gt;&lt;sys_email_client_template action="INSERT_OR_UPDATE"&gt;&lt;blind_copied/&gt;&lt;body/&gt;&lt;body_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img style="display: block; margin-left: auto; margin-right: auto;" title="" src="sys_attachment.do?sys_id=f83812122f511110223051072799b630" alt="" width="270" height="80" align="baseline" border="" hspace="" vspace="" data-original-title="" /&gt;&lt;span id="alttext-container"&gt;&lt;br /&gt;&lt;img id="alttext-image" width="16" height="16" align="left" /&gt;&lt;span id="alttext"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="text-decoration: underline; font-size: 12pt;"&gt;&lt;strong&gt;XLR Pre University College&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Dear:&amp;nbsp;&lt;/strong&gt;Father Name:&amp;nbsp;&lt;span style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f2d0912b-2599-49ca-896e-878743634246}}"&gt;&lt;span contenteditable="false" data-pillvalue="{{fd_transform:f2d0912b-2599-49ca-896e-878743634246}}"&gt;&lt;span data-tip="Trigger - Record Created or Updated &amp;gt; Student Result Table Record &amp;gt; Father Name" data-for="ah_tooltipTop"&gt;Trigger - Record Created or Updated➛...➛Father Name&lt;/span&gt;&lt;button id="transform_function_facade_f2d0912b-2599-49ca-896e-878743634246"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/span&gt;&lt;span style="text-decoration: underline; font-size: 12pt;"&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;As the college result are announced, your son Student Name:&amp;nbsp;&lt;span contenteditable="false" data-pillvalue="{{fd_transform:ddd185d1-9ad6-44c0-9b69-09f7f1852bd5}}"&gt;&lt;span data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Student Name" data-for="ah_tooltipTop"&gt;Trigger➛...➛Student Name&lt;/span&gt;&lt;button id="transform_function_facade_ddd185d1-9ad6-44c0-9b69-09f7f1852bd5"&gt;&lt;/button&gt;&lt;/span&gt;,&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;got Percentage:&amp;nbsp;&lt;span contenteditable="false" data-pillvalue="{{fd_transform:936d4d7b-1b97-4ef7-82ca-379d4d679079}}"&gt;&lt;span data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Percentage" data-for="ah_tooltipTop"&gt;Trigger➛...➛Percentage&lt;/span&gt;&lt;button id="transform_function_facade_936d4d7b-1b97-4ef7-82ca-379d4d679079"&gt;&lt;/button&gt;&lt;/span&gt;&amp;nbsp;and result is Result:&amp;nbsp;&lt;span contenteditable="false" data-pillvalue="{{fd_transform:c57e4e10-cfc6-409b-9d80-23da98aecebe}}"&gt;&lt;span data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Result" data-for="ah_tooltipTop"&gt;Trigger➛...➛Result&lt;/span&gt;&lt;button id="transform_function_facade_c57e4e10-cfc6-409b-9d80-23da98aecebe"&gt;&lt;/button&gt;&lt;/span&gt;.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 10pt;"&gt;&lt;em&gt;To Check the Result of you son/daughter&amp;nbsp;&lt;/em&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 10pt;"&gt;&lt;em&gt;click the link below,&lt;/em&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;&lt;em&gt;&lt;a href="https://dev80469.service-now.com/ss?id=student_result_page" target="_blank" rel="noopener" data-original-title="result"&gt;result&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;And as the student performance is Good/Bad we are conducting the parents teacher meeting on Meeting:&amp;nbsp;&lt;span contenteditable="false" data-pillvalue="{{fd_transform:7d7bf8b7-f258-4493-b685-cef1f139a625}}"&gt;&lt;span data-tip="Trigger &amp;gt; Student Result Table Record &amp;gt; Meeting" data-for="ah_tooltipTop"&gt;Trigger➛...➛Meeting&lt;/span&gt;&lt;button id="transform_function_facade_7d7bf8b7-f258-4493-b685-cef1f139a625"&gt;&lt;/button&gt;&lt;/span&gt;.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;Please attend the meeting without fail.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;Meeting details will sent to you soon.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;From:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;KLR Pre University College&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;Principal&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;Banglore&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;560069&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/body_html&gt;&lt;condition table="x_820118_stds_student_result_table"&gt;result=1^ORresult=2^EQ&lt;item display_value="Pass" endquery="false" field="result" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item display_value="Fail" endquery="false" field="result" goto="false" newquery="false" operator="=" or="true" value="2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;copied&gt;vikhyath.p@capgemini.com&lt;/copied&gt;&lt;email_client_from_address/&gt;&lt;from&gt;XLR Pre University College&lt;/from&gt;&lt;from_generation_type&gt;text&lt;/from_generation_type&gt;&lt;name&gt;Demo EMail Template&lt;/name&gt;&lt;order&gt;90&lt;/order&gt;&lt;recipients&gt;shashank.h-s@capgemini.com&lt;/recipients&gt;&lt;reply_to/&gt;&lt;script_from&gt;&lt;![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]&gt;&lt;/script_from&gt;&lt;subject&gt;Result is Announced&lt;/subject&gt;&lt;sys_class_name&gt;sys_email_client_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-18 06:07:10&lt;/sys_created_on&gt;&lt;sys_id&gt;4feae0872f159110e3f1d0e62799b607&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Demo EMail Template&lt;/sys_name&gt;&lt;sys_package display_value="Student App" source="x_820118_stds"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student App"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_email_client_template_4feae0872f159110e3f1d0e62799b607&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-18 06:07:10&lt;/sys_updated_on&gt;&lt;table&gt;x_820118_stds_student_result_table&lt;/table&gt;&lt;/sys_email_client_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1398696323</payload_hash>
+        <record_name>Demo EMail Template</record_name>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-18 06:07:10</sys_created_on>
+        <sys_id>ee1ce4072f159110e3f1d0e62799b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182af900f370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-18 06:07:10</sys_updated_on>
+        <type>Email Client Template</type>
+        <update_guid>e61ce40760159110b267f15b4a851071</update_guid>
+        <update_guid_history>e61ce40760159110b267f15b4a851071:1398696323</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-18 06:08:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_email_client_template">sys_email_client_template</sys_db_object>
+        <sys_id>3a7abdf496c94001aa8176ff0cf13749</sys_id>
+        <sys_metadata>4feae0872f159110e3f1d0e62799b607</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo EMail Template</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent display_value="Student Result Table">61dfc8e92f381110e3f1d0e62799b6fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_email_client_template_4feae0872f159110e3f1d0e62799b607</sys_update_name>
+        <sys_update_version display_value="sys_email_client_template_4feae0872f159110e3f1d0e62799b607">ee1ce4072f159110e3f1d0e62799b671</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-18 06:08:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>student</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate email Id</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+// 	var e=g_form.getReference(newValue);
+// 	g_form.setValue('student_email',e);
+// 	g_form.setValue('student_email',g_form.getReference('student'.email));
+	var usr = g_form.getReference('student',callBack);
+   
+}
+function callBack(usr){
+
+	g_form.setValue('student_email',usr.student_email);
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 06:06:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e075dfa92ff05110e3f1d0e62799b631</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Populate email Id</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_script_client_e075dfa92ff05110e3f1d0e62799b631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 14:29:54</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_script_client_e075dfa92ff05110e3f1d0e62799b631</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;student&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate email Id&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+// 	var e=g_form.getReference(newValue);
+// 	g_form.setValue('student_email',e);
+// 	g_form.setValue('student_email',g_form.getReference('student'.email));
+	var usr = g_form.getReference('student',callBack);
+   
+}
+function callBack(usr){
+
+	g_form.setValue('student_email',usr.student_email);
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-20 06:06:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e075dfa92ff05110e3f1d0e62799b631&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate email Id&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Student App" source="x_820118_stds"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student App"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e075dfa92ff05110e3f1d0e62799b631&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-20 14:29:54&lt;/sys_updated_on&gt;&lt;table&gt;x_820118_stds_student_result_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-836103296</payload_hash>
+        <record_name>Populate email Id</record_name>
+        <reverted_from/>
+        <source>8e7f40a92f381110e3f1d0e62799b6f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 14:29:54</sys_created_on>
+        <sys_id>04198df92fb85110e3f1d0e62799b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1821c03e7a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-20 14:29:54</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4c198df98ab85110c0962bc31217351e</update_guid>
+        <update_guid_history>4c198df98ab85110c0962bc31217351e:-836103296,bad1207514385110e16383815b0c2970:452911277,e6b16c35343851107b032f6bdcfddaeb:-1234653519,3781a0b1f4385110e21066ae936ac679:1141015535,b841ecf17d3851108d50c6de54d1ddb3:382514712,bf01acb1af3851101e782e8092f7c7f4:1576309012,187e93e137345110c76c331db1765492:-1234653519,b2fd93e18a345110b4549844405be543:1960297660,97bd13a19d345110c3bbf0f252668c76:311642383,c7695b6df0f05110c6c8335105acd5e1:-336864544,68f753293ef05110a2b8eee2b729cdd9:179500301,59b6932ddcf05110fd0d0dd6107f1fb8:-1427772568,de56536977f0511074a34eb0688323f4:666852609,de1697e9e8f051100b0867c1e5dc88cb:-2116243803,cee59fa9e0f0511044069138e8d21022:-99867689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-09 08:07:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4bb3adbbe15d4fec99f34fe654465810</sys_id>
+        <sys_metadata>e075dfa92ff05110e3f1d0e62799b631</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate email Id</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent display_value="Student Result Table">61dfc8e92f381110e3f1d0e62799b6fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_script_client_e075dfa92ff05110e3f1d0e62799b631</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e075dfa92ff05110e3f1d0e62799b631">04198df92fb85110e3f1d0e62799b61f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 08:07:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

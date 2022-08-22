@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-08 12:58:55</sys_created_on>
+        <sys_id>147a22732f85d510e3f1d0e62799b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_820118_stds_details_of_student.x_820118_stds.details_of_student_user</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_security_acl display_value="x_820118_stds_details_of_student">5c7a22732f85d510e3f1d0e62799b65f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_147a22732f85d510e3f1d0e62799b663</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-08 12:58:55</sys_updated_on>
+        <sys_user_role display_value="x_820118_stds.details_of_student_user" name="x_820118_stds.details_of_student_user">636aaebb2f45d510e3f1d0e62799b654</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_security_acl_role_147a22732f85d510e3f1d0e62799b663</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-08 12:58:55</sys_created_on><sys_id>147a22732f85d510e3f1d0e62799b663</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_820118_stds_details_of_student.x_820118_stds.details_of_student_user</sys_name><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_security_acl display_value="x_820118_stds_details_of_student">5c7a22732f85d510e3f1d0e62799b65f</sys_security_acl><sys_update_name>sys_security_acl_role_147a22732f85d510e3f1d0e62799b663</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-08 12:58:55</sys_updated_on><sys_user_role display_value="x_820118_stds.details_of_student_user" name="x_820118_stds.details_of_student_user">636aaebb2f45d510e3f1d0e62799b654</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>819920755</payload_hash>
+        <record_name>x_820118_stds_details_of_student.x_820118_stds.details_of_student_user</record_name>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-08 12:58:55</sys_created_on>
+        <sys_id>ac7a22732f85d510e3f1d0e62799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1827d896f110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-08 12:58:55</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a47a22732085d510788e470586b04e97</update_guid>
+        <update_guid_history>a47a22732085d510788e470586b04e97:819920755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_820118_stds_details_of_student.x_820118_stds.details_of_student_user">f031f60c2f111110e3f1d0e62799b643</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-09 08:06:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1f34f88fc61b450e8e2a0da1d9d406a4</sys_id>
+        <sys_metadata>147a22732f85d510e3f1d0e62799b663</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_820118_stds_details_of_student.x_820118_stds.details_of_student_user</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent display_value="">5c7a22732f85d510e3f1d0e62799b65f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_147a22732f85d510e3f1d0e62799b663</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_147a22732f85d510e3f1d0e62799b663">ac7a22732f85d510e3f1d0e62799b697</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 08:06:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

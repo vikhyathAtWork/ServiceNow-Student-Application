@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Populationg the fielkds with the help of student name</description>
+        <field>student</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate all fields</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var rn = g_form.getReference('student',callBack);
+   
+}
+function callBack(usr){
+
+	g_form.setValue('student_rollno',usr.student_rollno);
+	g_form.setValue('physics',usr.physics);
+	g_form.setValue('chemistry',usr.chemistry);
+	g_form.setValue('mathematics',usr.mathematics);
+	g_form.setValue('u_integer_8',usr.computer_science);
+	g_form.setValue('student_email',usr.student_email);
+	g_form.setValue('father_name', usr.father_name);
+	g_form.setValue('class',usr.class);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-20 12:05:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe96a4792f385110e3f1d0e62799b6cf</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Populate all fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_script_client_fe96a4792f385110e3f1d0e62799b6cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 07:30:21</sys_updated_on>
+        <table>x_820118_stds_student_result_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_script_client_fe96a4792f385110e3f1d0e62799b6cf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Populationg the fielkds with the help of student name&lt;/description&gt;&lt;field&gt;student&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate all fields&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var rn = g_form.getReference('student',callBack);
+   
+}
+function callBack(usr){
+
+	g_form.setValue('student_rollno',usr.student_rollno);
+	g_form.setValue('physics',usr.physics);
+	g_form.setValue('chemistry',usr.chemistry);
+	g_form.setValue('mathematics',usr.mathematics);
+	g_form.setValue('u_integer_8',usr.computer_science);
+	g_form.setValue('student_email',usr.student_email);
+	g_form.setValue('father_name', usr.father_name);
+	g_form.setValue('class',usr.class);
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-20 12:05:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fe96a4792f385110e3f1d0e62799b6cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate all fields&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Student App" source="x_820118_stds"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student App"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fe96a4792f385110e3f1d0e62799b6cf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-03 07:30:21&lt;/sys_updated_on&gt;&lt;table&gt;x_820118_stds_student_result_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1503319816</payload_hash>
+        <record_name>Populate all fields</record_name>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 07:30:21</sys_created_on>
+        <sys_id>724f63ce2f055110e3f1d0e62799b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182629cd6a20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 07:30:21</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>ba4f63ce8e055110f4a2aa257b6bae3c</update_guid>
+        <update_guid_history>ba4f63ce8e055110f4a2aa257b6bae3c:-1503319816,c922e9a1174d1110d46f5c8410e7e0f0:430516044,06e1ada1014d1110c9c22c67eb5e13b4:-828581709,b69a497d05b85110dfefe9bf9b009e6b:-642405628,7a090df991b85110fe76bdd4399a874b:-875491955,425b647d30385110c5de2d71e00a4d9f:2025526464,3d3b6c7d41385110e1d06260826209b8:-469870969,eafae03d2c385110dd251a6e00431a12:1376849417,8c8a2c3d7f3851106f937239f59f22d5:-2137009603,de1aacb97c385110f7e12877021c39ea:1064541895,06a9e8b9aa38511014d45e63617eb477:-262975720,2289a4f91b385110a67fa6443442c5b2:2136323340,1a7928f9e2385110433cab806a6a3503:-262975720,a739acb9a938511026330cd427031ce5:2071629922,0228acb9eb3851106cf08cc1e2fa3da6:907670146,cdf7e8b9d93851108a517a042f7f2e0d:78634769</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-09 08:07:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>c8ca3d1910be48f09b417961b27aa490</sys_id>
+        <sys_metadata>fe96a4792f385110e3f1d0e62799b6cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate all fields</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent display_value="Student Result Table">61dfc8e92f381110e3f1d0e62799b6fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_script_client_fe96a4792f385110e3f1d0e62799b6cf</sys_update_name>
+        <sys_update_version display_value="sys_script_client_fe96a4792f385110e3f1d0e62799b6cf">724f63ce2f055110e3f1d0e62799b63d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 08:07:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

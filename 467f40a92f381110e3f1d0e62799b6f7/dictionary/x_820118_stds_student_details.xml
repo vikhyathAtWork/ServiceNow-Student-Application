@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Student Details" max_length="40" name="x_820118_stds_student_details" sizeclass="5" type="collection">
+        <element attributes="import_attribute_name=Chemistry" label="Chemistry" max_length="40" name="u_chemistry" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Class" label="Class" max_length="40" name="u_class" type="string"/>
+        <element attributes="import_attribute_name=Computer Science" label="Computer Science" max_length="40" name="u_computer_science" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Father Name" label="Father Name" max_length="40" name="u_father_name" type="string"/>
+        <element attributes="import_attribute_name=Mathematics" label="Mathematics" max_length="40" name="u_mathematics" type="integer"/>
+        <element attributes="import_attribute_name=Physics" label="Physics" max_length="40" name="u_physics" type="integer"/>
+        <element attributes="import_attribute_name=Roll No" label="Roll No" max_length="40" name="u_roll_no" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student Email" label="Student Email" max_length="40" name="u_student_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student Name" label="Student Name" max_length="40" name="u_student_name" type="string"/>
+    </element>
+</database>

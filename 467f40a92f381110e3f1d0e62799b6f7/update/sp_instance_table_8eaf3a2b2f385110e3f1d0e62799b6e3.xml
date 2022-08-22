@@ -5,7 +5,7 @@
         <color>default</color>
         <css/>
         <display_field/>
-        <field_list>student,student_rollno,student_email,physics,chemistry,mathematics,u_integer_8,percentage,result</field_list>
+        <field_list>student_email,physics,chemistry,mathematics,u_integer_8,percentage,result,name</field_list>
         <filter/>
         <glyph>wpforms</glyph>
         <id/>
@@ -23,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-26 09:37:25</sys_created_on>
         <sys_id>8eaf3a2b2f385110e3f1d0e62799b6e3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>RESULT LIST</sys_name>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sp_instance_table_8eaf3a2b2f385110e3f1d0e62799b6e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-27 09:02:06</sys_updated_on>
+        <sys_updated_on>2022-08-17 10:16:07</sys_updated_on>
         <table>x_820118_stds_student_result_table</table>
         <title>RESULT LIST</title>
         <url/>

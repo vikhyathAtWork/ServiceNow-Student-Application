@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_820118_stds_details_of_students" version="2" view="sys_ref_list">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_820118_stds_details_of_students</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>cf30b63b2f85d510e3f1d0e62799b6ce</sys_id>
+            <sys_mod_count/>
+            <sys_name>x_820118_stds_details_of_students</sys_name>
+            <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2022-08-09 08:07:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">6badd262a5300110c0a0e1db2cdc950c</view>
+            <view_name>sys_ref_list</view_name>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_ui_list_x_820118_stds_details_of_students_sys_ref_list</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_820118_stds_details_of_students" version="2" view="sys_ref_list"><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_820118_stds_details_of_students</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>cf30b63b2f85d510e3f1d0e62799b6ce</sys_id><sys_mod_count/><sys_name>x_820118_stds_details_of_students</sys_name><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2022-08-09 08:07:20</sys_updated_on><sys_user/><view display_value="Reference List" name="sys_ref_list">6badd262a5300110c0a0e1db2cdc950c</view><view_name>sys_ref_list</view_name></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-2083567405</payload_hash>
+        <record_name>x_820118_stds_details_of_students</record_name>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-09 08:07:20</sys_created_on>
+        <sys_id>83413e0c2f111110e3f1d0e62799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18281a4d7260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 08:07:20</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>8b413e0c5511111007190b9d9ee228e4</update_guid>
+        <update_guid_history>8b413e0c5511111007190b9d9ee228e4:-2083567405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-17 09:39:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>a5acfd9808714ab7bba8af739d624621</sys_id>
+        <sys_metadata>bde3c3cc2f511110e3f1d0e62799b6ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_820118_stds_details_of_students</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent display_value="">f2b1834c2f511110e3f1d0e62799b6ae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_820118_stds_details_of_students_sys_ref_list</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_820118_stds_details_of_students_sys_ref_list">83413e0c2f111110e3f1d0e62799b6e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-17 09:39:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

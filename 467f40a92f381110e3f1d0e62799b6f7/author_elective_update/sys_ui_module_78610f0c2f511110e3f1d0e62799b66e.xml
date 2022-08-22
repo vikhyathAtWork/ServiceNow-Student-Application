@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Details of Student">d87a22732f85d510e3f1d0e62799b659</application>
+        <filter/>
+        <name>Details of Students</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_820118_stds.details_of_student_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-09 09:17:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78610f0c2f511110e3f1d0e62799b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Details of Students</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sys_ui_module_78610f0c2f511110e3f1d0e62799b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 09:17:38</sys_updated_on>
+        <table>x_820118_stds_details_of_student</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_ui_module_78610f0c2f511110e3f1d0e62799b66e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Details of Student">d87a22732f85d510e3f1d0e62799b659</application><filter/><name>Details of Students</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_820118_stds.details_of_student_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-09 09:17:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>78610f0c2f511110e3f1d0e62799b66e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Details of Students</sys_name><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sys_ui_module_78610f0c2f511110e3f1d0e62799b66e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-09 09:17:38</sys_updated_on><table>x_820118_stds_details_of_student</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>925806989</payload_hash>
+        <record_name>Details of Students</record_name>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-09 09:17:38</sys_created_on>
+        <sys_id>70610f0c2f511110e3f1d0e62799b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18281e534d00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 09:17:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>78610f0cac511110852f07e2ee1f6870</update_guid>
+        <update_guid_history>78610f0cac511110852f07e2ee1f6870:925806989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-09 09:31:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>5a879cc9b7494ed4945115adc76a4a24</sys_id>
+        <sys_metadata>78610f0c2f511110e3f1d0e62799b66e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Details of Students</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sys_ui_module_78610f0c2f511110e3f1d0e62799b66e</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_78610f0c2f511110e3f1d0e62799b66e">70610f0c2f511110e3f1d0e62799b671</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 09:31:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

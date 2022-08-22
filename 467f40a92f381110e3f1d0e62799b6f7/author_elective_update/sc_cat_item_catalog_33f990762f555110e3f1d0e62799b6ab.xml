@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Adding Student Details">84c718b22f555110e3f1d0e62799b6bc</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-17 10:09:35</sys_created_on>
+        <sys_id>33f990762f555110e3f1d0e62799b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Adding Student Details</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_33f990762f555110e3f1d0e62799b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-17 10:09:35</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sc_cat_item_catalog_33f990762f555110e3f1d0e62799b6ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Adding Student Details">84c718b22f555110e3f1d0e62799b6bc</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-17 10:09:35</sys_created_on><sys_id>33f990762f555110e3f1d0e62799b6ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Adding Student Details</sys_name><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sc_cat_item_catalog_33f990762f555110e3f1d0e62799b6ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-17 10:09:35</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1336393078</payload_hash>
+        <record_name>Service Catalog.Adding Student Details</record_name>
+        <reverted_from/>
+        <source>862385132ff01110e3f1d0e62799b649</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-17 10:09:35</sys_created_on>
+        <sys_id>480a90762f555110e3f1d0e62799b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ab47a5150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-17 10:09:35</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>8c0a9076c5555110a059fcfce31901b0</update_guid>
+        <update_guid_history>8c0a9076c5555110a059fcfce31901b0:-1336393078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Adding Student Details">361a14762f555110e3f1d0e62799b6fc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-17 10:10:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>3001ab2be15447489c28454291f27410</sys_id>
+        <sys_metadata>33f990762f555110e3f1d0e62799b6ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Adding Student Details</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent display_value="Adding Student Details">84c718b22f555110e3f1d0e62799b6bc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_33f990762f555110e3f1d0e62799b6ab</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_33f990762f555110e3f1d0e62799b6ab">480a90762f555110e3f1d0e62799b6b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-17 10:10:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
